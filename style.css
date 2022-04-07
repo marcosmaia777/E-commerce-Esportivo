@@ -1,5 +1,5 @@
 .menu{
-    background: red;
+    background: #3CB371	;
     height: 70px;
     width: 100%;
     display: flex;
@@ -8,14 +8,24 @@
     align-items: center;
 }
 
+
 input{
     margin-left:10px;
+    height: 20px;
+    font-size: 18px;
 }
 
 .menu--login,
 .menu--car{
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
     margin-left: 20px;
+}
+
+.menu--car:hover,
+.menu--login:hover{
+    color: white;
+    transition: all 0.3s;
+    transform: scale(1.2);
 }
