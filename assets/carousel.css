@@ -1,0 +1,43 @@
+.carousel{
+    height: 300px;
+    width: 100%;
+    background: red;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides{
+    display: flex;
+    height: 800px;
+}
+
+.slides input {
+    display: none;
+}
+
+img{
+    width: 300px;
+    margin-top: 250px;
+}
+
+.manual--navegation{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: 280px;
+}
+
+.manual--button{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.manual--button:hover{
+    background-color: white;
+}
