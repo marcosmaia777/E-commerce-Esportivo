@@ -7,3 +7,15 @@
     justify-content: center;
     align-items: center;
 }
+
+input{
+    margin-left:10px;
+}
+
+.menu--login,
+.menu--car{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
