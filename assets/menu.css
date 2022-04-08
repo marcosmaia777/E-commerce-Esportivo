@@ -1,6 +1,4 @@
-header{
-    background-image: linear-gradient(to bottom, #D9E8F5,#304269);
-}
+
 .menu{
     height: 60px;
     width: 100%;
@@ -8,16 +6,21 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: #696969	;
 }
 
+
 input{
-    margin-left:10px;
     height: 20px;
-    font-size: 18px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
 }
 
 .menu--login,
-.menu--car{
+.menu--car,
+.menu--address{
     font-size: 18px;
     text-decoration: none;
     color: black;
@@ -26,11 +29,12 @@ input{
 
 .menu--car:hover,
 .menu--login:hover,
+.menu--address:hover,
 .highlights--bestes:hover,
 .highlights--revenue:hover,
 .highlights--health:hover,
 .highlights--prime:hover{
-    border: 2px solid white;
+    box-shadow: inset 200px 0 0 #00000055;
     color: white;
     padding: 4px;
 }
