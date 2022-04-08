@@ -1,5 +1,7 @@
+header{
+    background-image: linear-gradient(to bottom, #D9E8F5,#304269);
+}
 .menu{
-    background: #008000;
     height: 60px;
     width: 100%;
     display: flex;
