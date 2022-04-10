@@ -37,7 +37,7 @@
 }
 
 .manual--bar{
-    border: 2px solid black;
+    border: 1px solid black;
     cursor: pointer;
     border-radius: 10px;
     transition: 1s;
@@ -66,10 +66,3 @@
     margin-left: -40%;
 }
 
-#slide4:checked ~ .first{
-    margin-left: -60%;
-}
-
-#slide5:checked ~ .first{
-    margin-left: -80%;
-}
