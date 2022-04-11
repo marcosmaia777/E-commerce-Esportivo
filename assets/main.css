@@ -1,6 +1,6 @@
 main{
     width: 100%;
-    height: 400px;
+    height: 500px;
     background: wheat
 }
 
@@ -36,17 +36,24 @@ main{
 }
 
 .type{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    
+    text-align: center;
+    width: 100%;
 }
 
-.type a {
-    color: red;
-    margin: 5px 0px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    padding-right: 8px;
-    text-decoration: none;
+.price {
+   display: inline-block;
+}
+
+.button--cart{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-size: 17px;
 }
 
 
