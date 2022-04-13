@@ -52,19 +52,26 @@ input{
     margin-top: 5px;
 }
 
-.box--button{
-    margin-left: 5%;
+.continue{
+    background: green;
     width: 310px;
     height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
     cursor: pointer;
-    background: green;
-    border: none;
-    color: white;
 }
 
-.box--button:hover{
-    background: rgb(10, 192, 10);
-    transition: 0.3s;
+.continue a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.continue:hover{
+   background: rgb(10, 192, 10)
 }
 
 .conditions{
@@ -75,27 +82,29 @@ input{
     flex-direction: row;
     justify-content: center;
     margin-left: 5%;
-    margin-top: 30px;
-    line-height: 20px;
+    margin-top: 20px;
+    line-height: 25px;
 }
 
-.button{
+.create{
+    background: #0a5d91;;
+    width: 310px;
+    height: 35px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
-}
-
-.button--create{
-    width: 310px;
-    height: 35px;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 40px;
     cursor: pointer;
-    border: none;
-    background: #0a5d91;
-    color: white;
 }
 
-.button--create:hover{
-    background: #0f4d74;
-    transition: 0.3s;
+.create:hover{
+    background:  #0f4d74;
+}
+
+.create a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
