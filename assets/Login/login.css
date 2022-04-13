@@ -12,6 +12,7 @@ body{
     width: 350px;
     margin-top: 10%;
     background: white;
+    border-radius: 3px;
 }
 
 .box--title{
@@ -62,9 +63,8 @@ input{
 }
 
 .box--button:hover{
-    background:  rgb(12, 139, 12);;
+    background: rgb(10, 192, 10);
     transition: 0.3s;
-    color: orange;
 }
 
 .conditions{
@@ -75,6 +75,27 @@ input{
     flex-direction: row;
     justify-content: center;
     margin-left: 5%;
-    margin-top: 10px;
+    margin-top: 30px;
     line-height: 20px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button--create{
+    width: 310px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    background: #0a5d91;
+    color: white;
+}
+
+.button--create:hover{
+    background: #0f4d74;
+    transition: 0.3s;
 }
