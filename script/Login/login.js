@@ -13,8 +13,10 @@ button.addEventListener('click' , (event) =>{
         password.classList.add('errorInput')
     }
     if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1){
-        alert("preenche direto porra")
-    } else{
-        
+        email.classList.add('errorInput')
+    } 
+    if (!isNaN(email.value) == true && email.value.length == 11){
+        email.classList.remove("errorInput")
     }
+    
 })
