@@ -41,6 +41,8 @@ input{
     margin-left: 5%;
     height: 35px;
     margin-bottom: 12px;
+    border-radius: 3px;
+    border: 1px solid;
 }
 
 .button--continue{
@@ -75,4 +77,8 @@ input{
     margin-left: 5%;
     margin-top: 10px;
     line-height: 25px;
+}
+
+.errorInput{
+    border: 1px solid red;
 }
