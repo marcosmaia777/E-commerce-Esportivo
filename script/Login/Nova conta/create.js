@@ -5,6 +5,7 @@ button.addEventListener('click', (event) => {
     let nome = document.getElementById('name')
     let email = document.getElementById('email')
     let password = document.getElementById('password')
+    let confir = document.getElementById('confirmation')
 
     if(nome.value == "") {
         nome.classList.add("errorInput")
@@ -14,5 +15,9 @@ button.addEventListener('click', (event) => {
     }
     if(password.value.length <= 5) {
         password.classList.add("errorInput")
+    }
+    if (confir.value === password.value) {
+    } else {
+        alert("As senhas não coincidem")
     }
 })  
