@@ -18,5 +18,7 @@ button.addEventListener('click' , (event) =>{
     if (!isNaN(email.value) == true && email.value.length == 11){
         email.classList.remove("errorInput")
     }
-    
+    if(password.value.length <= 5){
+        password.classList.add('errorInput')
+    }
 })
