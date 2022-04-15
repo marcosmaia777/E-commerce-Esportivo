@@ -1,23 +1,20 @@
 const button = document.getElementById('continue')
 
-button.addEventListener('click', button => {
-    const email = document.getElementById('email')
-    const password = document.getElementById('password')
+button.addEventListener('click' , (event) =>{
+    event.preventDefault()
+
+    let email = document.getElementById('email')
+    let password = document.getElementById('password')
 
     if (email.value == ""){
-        alert("Digite seu email")
-    } else{
-        
+        email.classList.add('errorInput')
     }
     if (password.value == ""){
-        alert("Digite sua senha")
-    }  if (email.value !== "@") {
-        alert("falta o @")
-    } 
-    if (email.value !== ".") {
-        alert("falta o ponto")
+        password.classList.add('errorInput')
     }
-    if (password.value < 6) {
-        alert("minimo 6 caracter")
+    if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1){
+        alert("preenche direto porra")
+    } else{
+        
     }
 })
