@@ -7,11 +7,12 @@ body{
 }
 
 .container{
-    height: 500px;
+    height: 420px;
     width: 300px;
     border-radius: 5px;
     box-shadow: 3px 3px 20px 3px #0a5d91;
     background: white;
+    margin-top: 5%;
 }
 
 .container--title{
