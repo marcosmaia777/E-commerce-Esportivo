@@ -1,21 +1,20 @@
 'use strict'
 
+const cep = document.getElementById('cep')
 
-let preencherFormulario = (endereco) => {
-    document.getElementById('endereco').value = endereco.logradouro
-    document.getElementById('bairro').value = endereco.localdiade
-    document.getElementById('cidade').value = endereco.uf
-    document.getElementById('estado').value = endereco.logradouro
-}
+cep.addEventListener('blur' ,(e)=>{
+    let search = cep.value
+    const options = {
+        method: 'GET',
+        mode: 'cors',
+        cache: 'default'
+    }
 
-const pesquisarCep = async () => {
-    let cep = document.getElementById('cep').value
-    let url = `http://viacep.com.br/ws/${cep}/json/`;
+    fetch(`https://viacep.com.br/ws/${search}/json/`, options)
+    .then(response=>{response.json()
+        .then(data => console.log(data))
+    })
+    .catch(e => console.log('Deu erro' + e,message))
     
-    let dados = await fetch(url);
-    let endereco = await dados.json();
-    console.log(endereco)
-}
-
-document.getElementById('cep')
-    .addEventListener('focusout', pesquisarCep)
+    
+})
