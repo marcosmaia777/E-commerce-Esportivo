@@ -21,7 +21,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-  
 }
 
 .container--title p {
@@ -37,7 +36,6 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 10px;
 }
 
