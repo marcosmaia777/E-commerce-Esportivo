@@ -1,7 +1,18 @@
-//Modal
+//Evento Modal
+
+
+
 function modal() {
-    document.querySelector('.modal').style.display = "flex"
+   document.getElementById('agora').style.display = 'flex';
+   
 }
+
+function closeModal() {
+    document.getElementById('agora').style.display = 'none';
+}
+
+
+    
 
 
 
