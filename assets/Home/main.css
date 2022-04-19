@@ -2,6 +2,7 @@ main {
     width: 100%;
     height: 650px;
     background: #6cafd8;
+    
 }
 
 .box {
@@ -55,24 +56,22 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: green;
+    width: 200px;
  }
 
-.button--cart {
-    width: 100%;
-    cursor: pointer;
-    background: green;
-    color: white;
-    font-size: 17px;
-    text-decoration: none;
-    text-align: center;
-    height: 35px;
-}
-
-.button--cart:hover {
+ .car button{
+     background: green;
+     border: none;
+     width: 100%;
+     cursor: pointer;
+     height: 35px;
+     color: white;
+     font-size: 16px;
+ }
+.car button:hover {
     background: rgb(10, 192, 10);
 }
-
-
 .back--home {
     width: 100%;
     height: 50px;
@@ -89,12 +88,65 @@ main {
 }
 
 .modal{
-    position: fixed;
-    top: 0;
+    height: 300px;
     width: 500px;
-    height: 500px;
-    display: none;
-    background: red;
-    margin-left: 20px;
-  }
+    box-shadow: 10px 10px 30px 10px #6cafd8;
+    border-radius: 20px;
+    }
+    
+    .modal--header{
+        width: 100%;
+        height: 50px;
+    }
+    
+    .modal--close{
+        background: red;
+        border: none;
+        height: 30px;
+        width: 30px;
+        color: white;
+        cursor: pointer;
+        margin-left: 96%;
+        border-radius: 10px;
+    }
+    
+    .modal--body{
+        height: 350px;
+        width: 200px;
+    
+    }
+    
+    .form--area{
+        height: 100px;
+        width: 200px;
+        margin-left: 200px;
+      
+    }
+    
+    
+    .form--area input {
+        width: 100%;
+    }
+    
+    .form--area button{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    
+    .modal--buttons{
+        margin-top: 20px;
+    
+       
+        width: 270px;
+        height: 100px;
+    }
+    
+    .form--butons{
+        background: green;
+        border: none;
+        height: 40px;
+        width: 200px;
+        color: white;
+        border-radius: 20px;
+    }
 
