@@ -1,9 +1,9 @@
-function modal () {
-    let button = document.getElementById('modal')
-        .addEventListener('clikc', button => {
-            alert("oi")
-        })
-}
+var button = document.getElementById('modal')
+.addEventListener('clikc', function () {
+    document.getElementById('window').style.background = "blue";
+})
+
+
 
 
 

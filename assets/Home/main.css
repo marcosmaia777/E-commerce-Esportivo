@@ -95,5 +95,5 @@ main {
     width: 500px;
     height: 500px;
     border: solid black 1px;
-    z-index: -1;
+    background: red;
   }
