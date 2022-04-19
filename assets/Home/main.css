@@ -94,6 +94,6 @@ main {
     left:0;
     width: 500px;
     height: 500px;
-    border: solid black 1px;
+    display: none;
     background: red;
   }
