@@ -88,11 +88,18 @@ main {
 }
 
 .modal{
-    height: 300px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     box-shadow: 10px 10px 30px 10px #6cafd8;
     border-radius: 20px;
-    }
+    position: fixed;
+    top: 0;
+    transition: all ease .5s;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    display: none;
+}
     
     .modal--header{
         width: 100%;
