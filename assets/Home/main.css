@@ -87,3 +87,13 @@ main {
     transition: 0.3s;
     color: orange;
 }
+
+.modal{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 500px;
+    height: 500px;
+    border: solid black 1px;
+    z-index: -1;
+  }
