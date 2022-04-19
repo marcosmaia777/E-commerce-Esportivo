@@ -7,9 +7,6 @@ function cancelar () {
     document.getElementById('janela').style.display = 'none'
 }
 
-
-
-
 // scroll backHome
 function backHome () {
     window.scroll({
@@ -17,4 +14,3 @@ function backHome () {
         top: 0
     })
 }
-
