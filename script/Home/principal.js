@@ -1,10 +1,14 @@
 //Evento Modal
-function modal() {
-   document.getElementById('agora').style.display = 'flex';
+function adicionar () {
+    document.getElementById('janela').style.display = 'flex';
 }
-function closeModal() {
-    document.getElementById('agora').style.display = 'none';
+
+function cancelar () {
+    document.getElementById('janela').style.display = 'none'
 }
+
+
+
 
 // scroll backHome
 function backHome () {

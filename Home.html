@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -141,7 +141,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -156,7 +156,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -187,7 +187,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -202,7 +202,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -217,7 +217,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -232,7 +232,7 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
@@ -247,36 +247,46 @@
                 </div>
             </div>
             <div class="car">
-                <button type="button" onclick="modal()" id="modal">Adicionar ao carrinho</button>
+                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
     </main>
 
-    <div class="modal" id="agora">
-        <div class="modal--header">
-            <button onclick="closeModal()" class="close--modal">X</button>
-        </div>
+    <div id="janela" class="modal">
         <div class="modal--body">
-            <img>
-            <form class="form--area">
-                <input placeholder="quantidade" type="number">
-                
-                    <button>38</button>
-                    <button>39</button>
-                    <button>40</button>
-                    <button>41</button>
-                    <button>42</button>
-                
-                <div class="modal--buttons">
-                    <button class="form--butons">Comprar</button>
+            <div class="modal--cancel">Voltar</div>
+            <div class="modal--big">
+                <img src="" />
+            </div>
+            <div class="modal--info">
+                <h1>--</h1>
+                <div class="modal--desc">--</div>
+                <div class="modal--area">
+                    <div class="modal--setor">Tamanho</div>
+                    <div class="modal--sizes">
+                        <div data-key="0" class="modal--size">PEQUENA <span>--</span></div>
+                        <div data-key="1" class="modal--size">MÉDIO <span>--</span></div>
+                        <div data-key="2" class="modal--size selected">GRANDE <span>--</span></div>
+                    </div>
                 </div>
-                    
-            </form>
+                <div class="modal--price">
+                    <div class="modal--sector">Preço</div>
+                    <div class="modal--price">
+                        <div class="modal--actualPrice">R$ --</div>
+                        <div class="modal--qtarea">
+                            <button class="modal--qtmenos">-</button>
+                            <div class="modal--qt">1</div>
+                            <button class="modal--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal--addButton">Adicionar ao carrinho</div>
+                <div onclick="cancelar()" id="cancelar" class="modal--cancelButton">Cancelar</div>
+            </div>
         </div>
-
     </div>
 
-
+   
 
 
     <div>

@@ -87,73 +87,143 @@ main {
     color: orange;
 }
 
-.modal{
-    height: 100%;
-    width: 100%;
-    box-shadow: 10px 10px 30px 10px #6cafd8;
-    border-radius: 20px;
-    position: fixed;
-    top: 0;
+.modal {
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(255, 255, 255, 0.5);
     transition: all ease .5s;
     justify-content: center;
     align-items: center;
-    background: red;
+    overflow-y:auto;
     display: none;
 }
-    
-    .modal--header{
-        width: 100%;
-        height: 50px;
-    }
-    
-    .modal--close{
-        background: red;
-        border: none;
-        height: 30px;
-        width: 30px;
-        color: white;
-        cursor: pointer;
-        margin-left: 96%;
-        border-radius: 10px;
-    }
-    
-    .modal--body{
-        height: 350px;
-        width: 200px;
-    
-    }
-    
-    .form--area{
-        height: 100px;
-        width: 200px;
-        margin-left: 200px;
-      
-    }
-    
-    
-    .form--area input {
-        width: 100%;
-    }
-    
-    .form--area button{
-        margin-top: 10px;
-        margin-left: 5px;
-    }
-    
-    .modal--buttons{
-        margin-top: 20px;
-    
-       
-        width: 270px;
-        height: 100px;
-    }
-    
-    .form--butons{
-        background: green;
-        border: none;
-        height: 40px;
-        width: 200px;
-        color: white;
-        border-radius: 20px;
-    }
-
+.modal--body {
+    width:900px;
+    background-color:#FFF;
+    border-radius:10px;
+    box-shadow:0px 0px 15px #999;
+    display:flex;
+    margin:20px 0px;
+}
+.modal--big {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal--back {
+    position:absolute;
+    width:30px;
+    height:30px;
+    background-color:#000;
+}
+.modal--big img {
+    height:400px;
+    width:auto;
+}
+.modal--info {
+    flex:1;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    padding-bottom:50px;
+}
+.modal--info h1 {
+    margin-top:50px;
+}
+.moda--info .modal--desc {
+    font-size:15px;
+    color:#999;
+    margin-top:10px;
+    font-family:'Lato',Helvetica,Arial;
+}
+.modal--sector {
+    color:#CCC;
+    text-transform: uppercase;
+    font-size:14px;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.modal--sizes {
+    display:inline-flex;
+    border-radius:10px;
+    overflow:hidden;
+}
+.modal--size {
+    padding:10px 15px;
+    color:#000;
+    background-color:#EEE;
+    font-size:13px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.modal--size:hover {
+    background-color:#CCC;
+}
+.modal--size.selected {
+    background-color:#399ade;
+    color:#FFF;
+}
+.modal--size.selected span {
+    color:#D6D6D6;
+}
+.modal--size span {
+    font-size:12px;
+    color:#999;
+    font-weight: normal;
+}
+.modal--price {
+    display:flex;
+    align-items:center;
+}
+.modal--actualPrice {
+    font-size:28px;
+    margin-right:30px;
+}
+.modal--qtarea {
+    display:inline-flex;
+    background-color:#EEE;
+    border-radius:10px;
+    height:30px;
+}
+.modal--qtarea button {
+    border:0;
+    background-color:transparent;
+    font-size:17px;
+    outline:0;
+    cursor:pointer;
+    padding:0px 10px;
+    color:#333;
+}
+.modal--qt {
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 5px;
+    color:#000;
+}
+.modal--addButton {
+    margin-top:30px;
+    padding:20px 30px;
+    border-radius:20px;
+    background-color:#48d05f;
+    color:#FFF;
+    display:inline-block;
+    cursor:pointer;
+    margin-right:30px;
+}
+.modal--addButton:hover {
+    background-color:#32a345;
+}
+.modal--cancelButton {
+    display:inline-block;
+    cursor:pointer;
+}
+.modal--cancel {
+    display:none;
+    height:40px;
+    text-align:center;
+    line-height: 40px;
+    margin-bottom:30px;
+}
