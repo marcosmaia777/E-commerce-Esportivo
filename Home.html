@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,7 +41,7 @@
                     alt="Combo de whey protein da probiotica">
                 <img src="imagens/Home/Slide principal/Suplemento/vo2-whey-bar-sabor-chocolate-integralmedica.png"
                     alt="Barrinha proteica">
-                <img src="imagens/Home/Slide secundário/Suplemento/max.png" alt="whey max">
+                <img src="imagens/Home/Slide secundário/max.png" alt="whey max">
             </div>
             <div class="slide">
                 <img src="imagens/Home/Slide principal/Esporte/camisa santa cruz.png" alt="Camisa do santa cruz">
@@ -66,191 +65,65 @@
             <label for="slide3" class="manual--bar"></label>
         </div>
     </div>
-
     <main>
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Esportes/Bermuda termina nike.png"
-                    alt="bermuda termica nike masculina">
+
+        <div class="models">
+            <div class="pizza-item">
+                <a href="">
+                    <div class="pizza-item--img"><img src="" /></div>
+                    <div class="pizza-item--add">+</div>
+                </a>
+                <div class="pizza-item--price">R$ --</div>
+                <div class="pizza-item--name">--</div>
+                <div class="pizza-item--desc">--</div>
             </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Short termico nike</span>
-                    <p>R$ 86,00</p>
+            <div class="cart--item">
+                <img src="" />
+                <div class="cart--item-nome">--</div>
+                <div class="cart--item--qtarea">
+                    <button class="cart--item-qtmenos">-</button>
+                    <div class="cart--item--qt">1</div>
+                    <button class="cart--item-qtmais">+</button>
                 </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
             </div>
         </div>
 
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Suplemento/Pasta de amendoim.png" alt="pasta de amendoim">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Pasta de Amendoim</span>
-                    <p>R$ 26,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
-            </div>
-        </div>
 
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Moda/Camisa básica nike feminina.png"
-                    alt="camisa básica feminina">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Camiseta nike feminina</span>
-                    <p>R$ 124,00</p>
+        
+        <header>
+            <div class="menu-openner"><span>0</span>🛒</div>
+        </header>
+        <main>
+            <h1>Pizzas</h1>
+            <div class="pizza-area"></div>
+        </main>
+        <aside>
+            <div class="cart--area">
+                <div class="menu-closer">❌</div>
+                <h1>Suas Pizzas</h1>
+                <div class="cart"></div>
+                <div class="cart--details">
+                    <div class="cart--totalitem subtotal">
+                        <span>Subtotal</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalitem desconto">
+                        <span>Desconto (-10%)</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalitem total big">
+                        <span>Total</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--finalizar">Finalizar a compra</div>
                 </div>
             </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
-            </div>
-        </div>
+        </aside>
 
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Esportes/Bola adidas.png" alt="bola de futebol adidas">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Bola adidas - campo</span>
-                    <p>R$ 134,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
-            </div>
-        </div>
 
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Esportes/corda.png" alt="Corda">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Corda</span>
-                    <p>R$ 37,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()" id="modal">Adicionar ao carrinho</button>
-            </div>
-        </div>
 
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Esportes/Tenis nike feminino.png" alt="Tenis feminino">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Tenis nike feminino</span>
-                    <p>R$ 284,50</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Moda/camisa do brasil 2021.png"
-                    alt="Camisa da seleção brasileira">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Camisa do Brasil</span>
-                    <p>R$ 349,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Suplemento/creatina integral.png" alt="Creatina">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Creatina</span>
-                    <p>R$ 54,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Suplemento/vitamina b12.png" alt="vitamina b12">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Vitamina B12</span>
-                    <p>R$ 79,30</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Suplemento/you pro chocolate.png" alt="YoPRO">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>YoPRO chocolate</span>
-                    <p>R$ 5,99</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Esportes/short adidas.png" alt="short adidas">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Short adias</span>
-                    <p>R$ 64,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="slide--img">
-                <img src="imagens/Home/Slide secundário/Esportes/supino novo.png" alt="Máquina de supino">
-            </div>
-            <div class="detail--box">
-                <div class="type">
-                    <span>Supino inclinado</span>
-                    <p>R$ 879,00</p>
-                </div>
-            </div>
-            <div class="car">
-                <button type="button" onclick="adicionar()">Adicionar ao carrinho</button>
-            </div>
-        </div>
     </main>
+    
 
     <div id="janela" class="modal">
         <div class="modal--body">
@@ -300,6 +173,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/Home/info.js"></script>
     <script src="script/Home/principal.js"></script>
 </body>
 </html>
