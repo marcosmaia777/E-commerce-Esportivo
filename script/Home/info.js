@@ -1,4 +1,4 @@
-let pizzaJson = [
+let imgJson = [
     {id:1, name: 'Bola adidas', img: 'imagens/Home/Slide secundário/bolaAdidas.png', price: 130 , description: 'Bola de futebol Adidas'},
     {id:2, name: 'Corda', img: 'imagens/Home/Slide secundário/corda.png', price: 39 , description: 'Corda'},
     {id:3, name: 'Creatina', img: 'imagens/Home/Slide secundário/creatinaIntegral.png', price: 55 , description: 'Creatina'},

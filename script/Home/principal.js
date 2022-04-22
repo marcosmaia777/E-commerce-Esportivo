@@ -1,9 +1,17 @@
+imgJson.map((item , index)=> {
+    let imgJson = document.querySelector('.models .item').cloneNode(true);
+    
+    imgJson.querySelector('.item--name').innerHTML = item.name
+    imgJson.querySelector('.item--desc').innerHTML = item.description
+    imgJson.querySelector('.item--price').innerHTML = `R$ ${item.price.toFixed(2)}`
+    imgJson.querySelector('.item--img  img').src = item.img
 
-pizzaJson.map((item, index)=> {
-    let pizzaItem = document.querySelector('.models .pizza-item').cloneNode(true);
+    document.querySelector('.area').append( imgJson )
+})
 
-    document.querySelector('.pizza-area').append( pizzaItem )
-});
+
+
+
 
 
 // scroll backHome
@@ -13,3 +21,5 @@ function backHome () {
         top: 0
     })
 }
+
+
