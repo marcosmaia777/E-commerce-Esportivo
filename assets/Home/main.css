@@ -196,6 +196,8 @@ aside.show {
 
 .modal--info h1 {
     margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .moda--info .modal--desc {

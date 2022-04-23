@@ -10,7 +10,9 @@ imgJson.map((item, index)=> {
         e.preventDefault()
         let key = e.target.closest('.item').getAttribute('data-key');
         document.querySelector('.modal--info h1').innerHTML = imgJson[key].name
-       
+        document.querySelector('.modal--desc').innerHTML = imgJson[key].description
+        document.querySelector('.modal--big img').src = imgJson[key].img
+        document.querySelector('.modal--actualPrice').innerHTML = `R$ ${imgJson[key].price.toFixed(2)}`
 
         
 
