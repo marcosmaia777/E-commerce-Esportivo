@@ -223,6 +223,13 @@ aside.show {
     background-color: #CCC;
 }
 
+
+.modal--PMG{
+    display: inline-flex;
+    overflow: hidden;
+}
+
+
 .modal--size span {
     font-size: 12px;
     color: #999;
