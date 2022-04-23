@@ -1,17 +1,15 @@
+imgJson.map((item, index)=> {
+    let Item = document.querySelector('.models .item').cloneNode(true);
+    Item.setAttribute('data-key' , index)
+    Item.querySelector('.item--name').innerHTML = item.name
+    Item.querySelector('.item--desc').innerHTML = item.description
+    Item.querySelector('.item--img img').src = item.img
+    Item.querySelector('.item--price').innerHTML = `${item.price.toFixed(2)}`
 
-imgJson.map((item , index)=> {
-    let imgJson = document.querySelector('.models .item').cloneNode(true);
-    //Informações dos produtos.
-    imgJson.setAttribute('data-key' , index)
-    imgJson.querySelector('.item--name').innerHTML = item.name
-    imgJson.querySelector('.item--desc').innerHTML = item.description
-    imgJson.querySelector('.item--price').innerHTML = `R$ ${item.price.toFixed(2)}`
-    imgJson.querySelector('.item--img  img').src = item.img
-    //Modal.
-    imgJson.querySelector('a').addEventListener('click' , (e) => {
+    Item.querySelector('a').addEventListener('click' , (e) => {
         e.preventDefault()
         let key = e.target.closest('.item').getAttribute('data-key');
-        
+        document.querySelector('.modal--info h1').innerHTML = imgJson[key].name
        
 
         
@@ -24,8 +22,9 @@ imgJson.map((item , index)=> {
     });
 
 
-    document.querySelector('.area').append( imgJson )
-})
+
+    document.querySelector('.area').append( Item )
+});
 
 
 
