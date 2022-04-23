@@ -198,12 +198,12 @@ aside.show {
     margin-top: 50px;
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 5px;
 }
 
-.moda--info .modal--desc {
+.modal--info .modal--desc {
     font-size: 15px;
-    color: #999;
-    margin-top: 10px;
+    color: #555;
     font-family: 'Lato', Helvetica, Arial;
 }
 
@@ -216,6 +216,7 @@ aside.show {
     cursor: pointer;
     height: 35px;
     margin-left: 5px;
+    margin-top: 15px;
 }
 
 .modal--size:hover {
