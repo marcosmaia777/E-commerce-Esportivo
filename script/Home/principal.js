@@ -1,3 +1,4 @@
+let modalQt = 1;
 imgJson.map((item, index)=> {
     //Preenchimento 
     let Item = document.querySelector('.models .item').cloneNode(true);
@@ -9,7 +10,10 @@ imgJson.map((item, index)=> {
     //Abrir modal
     Item.querySelector('a').addEventListener('click' , (e) => {
         e.preventDefault()
+
         let key = e.target.closest('.item').getAttribute('data-key');
+        modalQt = 1;
+
         document.querySelector('.modal--info h1').innerHTML = imgJson[key].name
         document.querySelector('.modal--desc').innerHTML = imgJson[key].description
         document.querySelector('.modal--big img').src = imgJson[key].img
@@ -32,7 +36,7 @@ imgJson.map((item, index)=> {
     });
     document.querySelector('.area').append( Item )
 });
-
+    document.querySelector('.modal--qt').innerHTML = modalQt;
 //Eventos do modal 
 function closeModal() {
     document.querySelector('.modal').style.opacity = '0'
@@ -42,7 +46,9 @@ function closeModal() {
 }
 // fechar modal ao clicar em cancelar
 let fecharModal = document.querySelector('.modal--cancelButton')
-    fecharModal.addEventListener('click' , closeModal)
+    fecharModal.addEventListener('click' , closeModal);
+// Adicionar 
+
 
 
 
