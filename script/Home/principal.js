@@ -34,6 +34,16 @@ imgJson.map((item, index)=> {
 });
 
 //Eventos do modal 
+function closeModal() {
+    document.querySelector('.modal').style.opacity = '0'
+    setTimeout(() => {
+        document.querySelector('.modal').style.display = 'none'
+    }, 500)
+}
+// fechar modal ao clicar em cancelar
+let fecharModal = document.querySelector('.modal--cancelButton')
+    fecharModal.addEventListener('click' , closeModal)
+
 
 
 // scroll backHome
