@@ -48,7 +48,19 @@ function closeModal() {
 let fecharModal = document.querySelector('.modal--cancelButton')
     fecharModal.addEventListener('click' , closeModal);
 // Adicionar 
+document.querySelector('.modal--qtmais').addEventListener('click', () => {
+    modalQt++;
+    document.querySelector('.modal--qt').innerHTML = modalQt;
+})
 
+// Diminuir 
+document.querySelector('.modal--qtmenos').addEventListener('click', () => {
+    
+    if(modalQt > 1) {
+        modalQt--;
+        document.querySelector('.modal--qt').innerHTML = modalQt;
+    } 
+})
 
 
 
