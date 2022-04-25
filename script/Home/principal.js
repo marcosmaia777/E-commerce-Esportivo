@@ -1,4 +1,7 @@
+let cart = []
 let modalQt = 1;
+let modalKey = 0;
+
 imgJson.map((item, index)=> {
     //Preenchimento 
     let Item = document.querySelector('.models .item').cloneNode(true);
@@ -13,6 +16,7 @@ imgJson.map((item, index)=> {
 
         let key = e.target.closest('.item').getAttribute('data-key');
         modalQt = 1;
+        modalKey = key;
 
         document.querySelector('.modal--info h1').innerHTML = imgJson[key].name
         document.querySelector('.modal--desc').innerHTML = imgJson[key].description
@@ -61,6 +65,14 @@ document.querySelector('.modal--qtmenos').addEventListener('click', () => {
         document.querySelector('.modal--qt').innerHTML = modalQt;
     } 
 })
+//Adicionar ao carrinho 
+document.querySelector('.modal--addButton').addEventListener('click' , () =>{
+  cart.push({
+      id: imgJson[modalKey].id,
+      qt: modalQt
+  });
+  closeModal()
+})
 
 
 
@@ -71,13 +83,3 @@ function backHome () {
         top: 0
     })
 }
-
-
-
-   
-
-
-
-
-
-
