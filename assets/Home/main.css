@@ -52,12 +52,43 @@ aside {
 }
 
 aside.show {
-    width: 17%;
+    width: 20%;
 }
 
 .cart--area {
     padding: 20px;
+    margin-bottom: 10px;
 }
+
+.cart--area h1{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cart--area p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart--area button{
+    background: green;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cart--area button:hover{
+    background: rgb(10, 192, 10)
+}
+
+
+
+
 
 .area {
     display: grid;
