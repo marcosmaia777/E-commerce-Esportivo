@@ -22,9 +22,6 @@ header {
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
-    background-color: #a9dcff;
-    padding: 5px 20px;
-    border-radius: 5px;
 }
 
 .menu-openner span {
@@ -39,7 +36,6 @@ header {
 }
 
 aside {
-    background-color:#9ccbe6;
     width:0vw;
     font-family:'Hepta Slab', Helvetica, Arial;
     transition:all ease .2s;
@@ -49,10 +45,14 @@ aside {
     top: 0;
     bottom: 0;
     right: 0;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
 }
 
 aside.show {
-    width: 11%;
+    width: 15%;
 }
 
 .cart--area {
@@ -88,7 +88,7 @@ aside.show {
     height: 120px;
     background-color: #EEE;
     box-shadow: 3px 3px 20px 3px #0a5d91;
-border-radius: 5px;}
+    border-radius: 5px;}
 
 .item--img:hover {
     transform: scale(1.05);
