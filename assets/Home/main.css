@@ -1,11 +1,6 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     height: 800px;
     background: white;
-    padding: 10px;
 }
 
 .models {
@@ -49,19 +44,29 @@ aside {
     font-family:'Hepta Slab', Helvetica, Arial;
     transition:all ease .2s;
     overflow-x:hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 aside.show {
-    width: 30vw;
+    width: 11%;
 }
 
 .cart--area {
     padding: 20px;
 }
+.cart {
+    margin-bottom:20px;
+}
 
 .area {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    margin-left: 52px;
 }
 
 .item {
@@ -82,9 +87,8 @@ aside.show {
     width: 120px;
     height: 120px;
     background-color: #EEE;
-    border-radius: 100px;
     box-shadow: 3px 3px 20px 3px #0a5d91;
-}
+border-radius: 5px;}
 
 .item--img:hover {
     transform: scale(1.05);
