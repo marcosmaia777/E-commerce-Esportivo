@@ -71,9 +71,17 @@ document.querySelector('.modal--addButton').addEventListener('click' , () =>{
       id: imgJson[modalKey].id,
       qt: modalQt
   });
+  updateCart()
   closeModal()
 })
 
+function updateCart() {
+    if (cart.length > 0) {
+        document.querySelector('aside').classList.add('show')
+    } else {
+        document.querySelector('aside').classList.remove('show')
+    }
+}
 
 
 // scroll backHome

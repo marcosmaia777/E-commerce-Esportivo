@@ -1,4 +1,8 @@
-main {
+* {
+    box-sizing: border-box;
+}
+
+body {
     height: 800px;
     background: white;
     padding: 10px;
@@ -40,11 +44,11 @@ header {
 }
 
 aside {
-    background-color: #9ccbe6;
-    width: 0vw;
-    font-family: 'Hepta Slab', Helvetica, Arial;
-    transition: all ease .2s;
-    overflow-x: hidden;
+    background-color:#9ccbe6;
+    width:0vw;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    transition:all ease .2s;
+    overflow-x:hidden;
 }
 
 aside.show {
