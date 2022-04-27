@@ -85,16 +85,20 @@ function updateCart() {
 
     cartItem.querySelector('img').src = item.img;
     cartItem.querySelector('.cart--item-name').innerHTML = item.name
-
+    cartItem.querySelector('.cart--item--price').innerHTML = `R$ ${item.price.toFixed(2)}`
+    cartItem.querySelector('.cart--item--desc').innerHTML = item.description
 
     document.querySelector('.cart').append(cartItem);
 }
-    
-        
     } else {
         document.querySelector('aside').classList.remove('show')
     }
 }
+
+let buttonFinish = document.querySelector('.finish');
+buttonFinish.addEventListener('click', () => {
+    document.querySelector('aside').classList.remove('show')
+})
 
 // scroll backHome
 function backHome () {

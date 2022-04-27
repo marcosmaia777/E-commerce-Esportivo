@@ -53,6 +53,7 @@ aside {
 
 aside.show {
     width: 20%;
+    transition:ease-in-out 0.5s;
 }
 
 .cart--area {
@@ -90,11 +91,25 @@ aside.show {
     width:200px;
     height:200px;
     margin-right:20px;
+    margin-top: 10px;
 }
 
 .cart--item-name{
     text-align: center;
     font-size: 18px;
+    margin-top: 10px;
+}
+
+.cart--item--price{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart--item--desc{
+    font-size: 13px;
+    text-align: center;
 }
 
 .area {

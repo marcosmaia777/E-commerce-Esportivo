@@ -24,13 +24,13 @@
     width: 300px;
     height: 250px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .manual--navegation {
     position: absolute;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
 }
@@ -51,6 +51,7 @@
 
 .manual--bar:hover {
     background: orange;
+    transition: all 1s;
 }
 
 #slide1:checked~.first {
