@@ -19,25 +19,8 @@ header {
     align-items: center;
 }
 
-.menu-openner {
-    margin-right: 15px;
-    font-size: 26px;
-}
-
-.menu-openner span {
-    margin-right: 10px;
-}
-
-.menu-closer {
-    width: 32px;
-    height: 32px;
-    display: none;
-    font-size: 30px;
-}
-
 aside {
     width:0vw;
-    font-family:'Hepta Slab', Helvetica, Arial;
     transition:all ease .2s;
     overflow-x:hidden;
     position: fixed;
@@ -189,22 +172,6 @@ aside.show {
     margin-top: 10px;
 }
 
-.back--home {
-    width: 100%;
-    height: 50px;
-    border: none;
-    background: #0a5d91;
-    color: white;
-    cursor: pointer;
-    margin-top: 40px;
-}
-
-.back--home:hover {
-    background: #0f4d74;
-    transition: 0.3s;
-    color: orange;
-}
-
 .modal {
     position: fixed;
     left: 0;
@@ -282,12 +249,10 @@ aside.show {
     background-color: #CCC;
 }
 
-
 .modal--PMG{
     display: inline-flex;
     overflow: hidden;
 }
-
 
 .modal--size span {
     font-size: 12px;
@@ -368,4 +333,20 @@ aside.show {
     text-align: center;
     line-height: 40px;
     margin-bottom: 30px;
+}
+
+.back--home {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #0a5d91;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.back--home:hover {
+    background: #0f4d74;
+    transition: 0.3s;
+    color: orange;
 }
