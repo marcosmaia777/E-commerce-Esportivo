@@ -84,7 +84,7 @@ function updateCart() {
     let cartItem = document.querySelector('.models .cart--item').cloneNode(true);
 
     cartItem.querySelector('img').src = item.img;
-    cartItem.querySelector('.cart--item-nome').innerHTML = item.name
+    cartItem.querySelector('.cart--item-name').innerHTML = item.name
 
 
     document.querySelector('.cart').append(cartItem);
