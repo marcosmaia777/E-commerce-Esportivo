@@ -13,5 +13,6 @@ let imgJson = [
     {id:12, name: 'Tênis feminino Nike', img: 'imagens/Home/Slide secundário/tenisFeminino.png', price: 249.99 , description: 'Tênis feminino Nike', id2: 'Calçado'},
     {id:13, name: 'Short térmico Nike', img: 'imagens/Home/Slide secundário/termicaNike.png', price: 90 , description: 'Short Térmico Nike', id2: 'Moda'},
     {id:14, name: 'Vitamina B12', img: 'imagens/Home/Slide secundário/vitaminaB12.png', price: 55 , description: 'Vitamina B12' , id2: 'Variados'},
-    {id:15, name: 'YoPro', img: 'imagens/Home/Slide secundário/YoPro.png', price: 5.99 , description: 'YoPro Chocolate' , id2: 'Variados'}
+    {id:15, name: 'YoPro', img: 'imagens/Home/Slide secundário/YoPro.png', price: 5.99 , description: 'YoPro Chocolate' , id2: 'Variados'},
+    {id:15, name: 'Conjunto do Flamengo', img: 'imagens/Home/Slide secundário/Flamengo.png', price: 329.99 , description: 'Conjunto do Flamengo' , id2: 'Moda'}
 ]
