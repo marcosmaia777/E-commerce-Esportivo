@@ -78,22 +78,23 @@ document.querySelector('.modal--addButton').addEventListener('click' , () =>{
 function updateCart() {
     if (cart.length > 0) {
         document.querySelector('aside').classList.add('show')
-        document.querySelector('.cart').innerHTML = '';
+    closeModal()
         for(let i in cart) {
-            let item = imgJson.find((item)=>item.id == cart[i].id)
-            let cartItem = document.querySelector('.models .cart--item').cloneNode(true);
+            let item = imgJson.find((item)=>item.id == cart[i].id);
+    let cartItem = document.querySelector('.models .cart--item').cloneNode(true);
 
-            cartItem.querySelector('.img').src = item.img;
-            cartItem.querySelector('.cart--item-nome').innerHTML = item.name;
+    cartItem.querySelector('img').src = item.img;
+    cartItem.querySelector('.cart--item-nome').innerHTML = item.name
 
 
-            document.querySelector('.cart').append(cartItem);
-        }
+    document.querySelector('.cart').append(cartItem);
+}
+    
+        
     } else {
         document.querySelector('aside').classList.remove('show')
     }
-} 
-
+}
 
 // scroll backHome
 function backHome () {
