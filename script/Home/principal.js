@@ -9,7 +9,7 @@ imgJson.map((item, index)=> {
     Item.querySelector('.item--name').innerHTML = item.name
     Item.querySelector('.item--desc').innerHTML = item.description
     Item.querySelector('.item--img img').src = item.img
-    Item.querySelector('.item--price').innerHTML = `${item.price.toFixed(2)}`
+    Item.querySelector('.item--price').innerHTML = `R$${item.price.toFixed(2)}`
     //Abrir modal
     Item.querySelector('a').addEventListener('click' , (e) => {
         e.preventDefault()

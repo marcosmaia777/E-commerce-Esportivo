@@ -67,6 +67,37 @@
 }
 
 .slider-2{
+   margin-bottom: 30px;
+}
+
+.slider-2 h2{
+    margin: 20px 0px 0px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.slider-2--area{
+    overflow: hidden;
+    padding-left: 30px;
+    white-space: nowrap
+}
+
+.slider-2--list{
+    width: 99999px;
+}
+
+.slider-2--img{
+    display: inline-block;
+    width:  150px;
+    cursor: pointer;
+}
+
+.slider-2--img img{
     width: 100%;
-    height: 500px;
+    transform: scale(0.9);
+    transition: ease-in-out 0.4s;
+}
+
+.slider-2--img img:hover{
+    transform: scale(1);
 }
