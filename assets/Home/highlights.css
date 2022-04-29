@@ -1,9 +1,16 @@
 .highlights{
     width: 1329px;
-    height: 80px;
-    background: red;
+    height: 70px;
+    background: #0a5d91;
     padding: 10px;
-    display: none;
-    justify-content: flex-end;
+    flex-direction:row;
+    justify-content:space-around;
     align-items: center;
+    display: flex;
+}
+
+.highlights li{
+    margin-top: 60px;
+    font-size: 18px;
+    cursor: pointer;
 }
