@@ -1,0 +1,9 @@
+.highlights{
+    width: 1329px;
+    height: 80px;
+    background: red;
+    padding: 10px;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
