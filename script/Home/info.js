@@ -16,3 +16,20 @@ let imgJson = [
     {id:15, name: 'YoPro', img: 'imagens/Home/Slide secundário/YoPro.png', price: 5.99 , description: 'YoPro Chocolate' , id2: 'Variados'},
     {id:15, name: 'Conjunto do Flamengo', img: 'imagens/Home/Slide secundário/Flamengo.png', price: 329.99 , description: 'Conjunto do Flamengo' , id2: 'Moda'}
 ]
+
+let slideJson = [
+    {id:1, img: 'imagens/Home/Slide moda/adidasJoger.png'},
+    {id:2, img: 'imagens/Home/Slide moda/alpargataHavaianas.png'},
+    {id:3, img: 'imagens/Home/Slide moda/apple.png'},
+    {id:4, img: 'imagens/Home/Slide moda/camisaBotão.png'},
+    {id:5, img: 'imagens/Home/Slide moda/chineloNike.png'},
+    {id:6, img: 'imagens/Home/Slide moda/conjuntoKalvin.png'},
+    {id:7, img: 'imagens/Home/Slide moda/evelast.png'},
+    {id:8, img: 'imagens/Home/Slide moda/jaqueta.png'},
+    {id:9, img: 'imagens/Home/Slide moda/kitMeia.png'},
+    {id:10, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
+    {id:11, img: 'imagens/Home/Slide moda/poloBoss.png'},
+    {id:12, img: 'imagens/Home/Slide moda/pretaSport.png'},
+    {id:13, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
+    {id:14, img: 'imagens/Home/Slide moda/shortPraia.png'}
+]
