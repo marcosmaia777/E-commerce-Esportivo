@@ -107,9 +107,3 @@ function backHome () {
         top: 0
     })
 }
-
-slideJson.map((moda, index)=>{
-    let moda = document.querySelector('.slider-2 slider-2--list').cloneNode(true)
-
-    document.querySelector('.slider-2').append(moda)
-})

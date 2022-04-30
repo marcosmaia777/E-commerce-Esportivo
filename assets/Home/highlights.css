@@ -1,12 +1,12 @@
 .highlights{
     width: 1329px;
     height: 70px;
-    background: #0a5d91;
     padding: 10px;
     flex-direction:row;
     justify-content:space-around;
     align-items: center;
     display: flex;
+    background: #0a5d91;
 }
 
 .highlights li{
