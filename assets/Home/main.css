@@ -136,26 +136,6 @@ aside.show {
     margin-top: 15px;
 }
 
-.item--add {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 25px;
-    background-color: green;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: -25px;
-    transition: all ease .2s;
-}
-
-.item a:hover .item--add {
-    background: rgb(10, 192, 10);
-    transform: scale(1.03);
-    transition: all;
-}
-
 .item--price {
     font-size: 15px;
     color: #333;
