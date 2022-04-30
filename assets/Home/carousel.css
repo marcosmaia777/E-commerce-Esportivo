@@ -66,12 +66,12 @@
 }
 
 .slider-2{
-   margin-bottom: 30px;
+    background: white;
 }
 
 .slider-2 h2{
     margin: 20px 0px 0px 30px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -83,6 +83,7 @@
 
 .slider-2--list{
     width: 99999px;
+    background: transparent;
 }
 
 .slider-2--img{
