@@ -15,3 +15,7 @@ let imgJson = [
     {id:15, name: 'YoPro', img: 'imagens/Home/Slide secundário/YoPro.png', price: 5.99 , description: 'YoPro Chocolate' , id2: 'Variados'},
     {id:15, name: 'Conjunto do Flamengo', img: 'imagens/Home/Slide secundário/Flamengo.png', price: 329.99 , description: 'Conjunto do Flamengo' , id2: 'Moda'}
 ]
+
+let imgModa = [
+    {id:1, name:'Kit Meia', img: 'imagens/Home/Slide moda/kitMeia.png'}
+]

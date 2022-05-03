@@ -100,6 +100,21 @@ buttonFinish.addEventListener('click', () => {
     document.querySelector('aside').classList.remove('show')
 })
 
+
+imgModa.map((produto, key)=>{
+    let produtoModa = document.querySelector('.modelo .produto-moda').cloneNode(true);
+
+    
+
+
+
+    document.querySelector('.slider-2').append( produtoModa )
+})
+
+
+
+
+
 // scroll backHome
 function backHome () {
     window.scroll({
