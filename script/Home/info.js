@@ -16,6 +16,18 @@ let imgJson = [
     {id:15, name: 'Conjunto do Flamengo', img: 'imagens/Home/Slide secundário/Flamengo.png', price: 329.99 , description: 'Conjunto do Flamengo' , id2: 'Moda'}
 ]
 
-let imgModa = [
-    {id:1, name:'Kit Meia', img: 'imagens/Home/Slide moda/kitMeia.png'}
+let modaJson = [
+    {id:1, img: 'imagens/Home/Slide moda/adidasJoger.png'},
+    {id:2, img: 'imagens/Home/Slide moda/alpargataHavaianas.png'},
+    {id:3, img: 'imagens/Home/Slide moda/apple.png'},
+    {id:5, img: 'imagens/Home/Slide moda/chineloNike.png'},
+    {id:6, img: 'imagens/Home/Slide moda/conjuntoKalvin.png'},
+    {id:7, img: 'imagens/Home/Slide moda/everlast.png'},
+    {id:8, img: 'imagens/Home/Slide moda/jaqueta.png'},
+    {id:1, img: 'imagens/Home/Slide moda/kitMeia.png'},
+    {id:1, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
+    {id:1, img: 'imagens/Home/Slide moda/poloBoss.png'},
+    {id:1, img: 'imagens/Home/Slide moda/pretaSport.png'},
+    {id:1, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
+    {id:1, img: 'imagens/Home/Slide moda/shortPraia.png'}
 ]

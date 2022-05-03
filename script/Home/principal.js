@@ -101,6 +101,17 @@ buttonFinish.addEventListener('click', () => {
 })
 
 
+
+modaJson.map((item, index) => {
+    let Moda = document.querySelector('.slider-2--area .slider-2--list').cloneNode(true)
+    Moda.querySelector('.slider-2--img img').src = item.img
+
+    document.querySelector('.slider2').append( Moda )
+})
+
+
+
+
 // scroll backHome
 function backHome () {
     window.scroll({
