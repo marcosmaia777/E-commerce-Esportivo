@@ -65,8 +65,13 @@
     margin-left: -40%;
 }
 
+.slider-2--area{
+    width: 100%;
+    height: 40px;
+}
+
 .slider-2{
-    background: white;
+    display: flex;
 }
 
 .slider-2 h2{
