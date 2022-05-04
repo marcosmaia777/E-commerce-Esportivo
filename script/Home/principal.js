@@ -7,7 +7,6 @@ imgJson.map((item, index)=> {
     let Item = document.querySelector('.models .item').cloneNode(true);
     Item.setAttribute('data-key' , index)
     Item.querySelector('.item--name').innerHTML = item.name
-    Item.querySelector('.item--desc').innerHTML = item.description
     Item.querySelector('.item--img img').src = item.img
     Item.querySelector('.item--price').innerHTML = `R$${item.price.toFixed(2)}`
     //Abrir modal

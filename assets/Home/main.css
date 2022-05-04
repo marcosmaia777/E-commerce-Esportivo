@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-image: linear-gradient(to top,transparent, wheat );
+    background-image: linear-gradient(to top,rgb(209, 198, 198), wheat );
 }
 
 .models {
@@ -317,12 +317,6 @@ aside.show {
     line-height: 40px;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
 
 .back--home {
     width: 100%;

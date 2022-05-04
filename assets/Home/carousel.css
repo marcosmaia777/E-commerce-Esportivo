@@ -65,45 +65,37 @@
     margin-left: -40%;
 }
 
-.slider-2--area{
-    height: 200px;
-    display: none;
+.fashionRow{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: rgb(209, 198, 198);
 }
 
-.slider-2 h2{
-    margin: 20px 0px 0px 30px;
-    font-size: 40px;
+.fashionRow h2{
+    margin: 0px 0px 0px 30px;
+    font-size: 23px;
     font-weight: bolder;
 }
 
-.slider-2--area{
-    overflow: hidden;
-    padding-left: 30px;
-    white-space: nowrap;
+.fashionRow-listArea{
+    overflow-x: hidden;
+    margin-left: 30px;
 }
 
-.slider-2--list{
-    background: transparent;
+.fashionRow-list{
+    width: 9999px;
 }
 
-.slider-2--img{
+.fashionRow-item{
     display: inline-block;
-    width:  150px;
-    height: 150px;
-    cursor: pointer;
 }
 
-.slider-2--img img{
-    width: 100%;
+.fashionRow-item img{
+    width: 200px;
     transform: scale(0.9);
-    transition: ease-in-out 0.4s;
-    height: 100%;
 }
 
-.slider-2--img img:hover{
+.fashionRow-item img:hover{
     transform: scale(1);
-}
-
-.slider2{
-    height: 200px;
+    transition: all 0.4s;
 }
