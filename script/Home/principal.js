@@ -102,8 +102,8 @@ buttonFinish.addEventListener('click', () => {
 
 
 modaJson.map((item, index) => {
-    let Moda = document.querySelector('.slider-2--area .slider-2--list').cloneNode(true)
-    Moda.querySelector('.slider-2--img img').src = item.img
+    let Moda = document.querySelector('.fashionRow .fashionRow-listArea').cloneNode(true)
+    Moda.querySelector('.fashionRow-item img').src = item.img
 
     document.querySelector('.slider2').append( Moda )
 })

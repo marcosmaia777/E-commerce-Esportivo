@@ -24,10 +24,10 @@ let modaJson = [
     {id:6, img: 'imagens/Home/Slide moda/conjuntoKalvin.png'},
     {id:7, img: 'imagens/Home/Slide moda/everlast.png'},
     {id:8, img: 'imagens/Home/Slide moda/jaqueta.png'},
-    {id:1, img: 'imagens/Home/Slide moda/kitMeia.png'},
-    {id:1, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
-    {id:1, img: 'imagens/Home/Slide moda/poloBoss.png'},
-    {id:1, img: 'imagens/Home/Slide moda/pretaSport.png'},
-    {id:1, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
-    {id:1, img: 'imagens/Home/Slide moda/shortPraia.png'}
+    {id:9, img: 'imagens/Home/Slide moda/kitMeia.png'},
+    {id:10, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
+    {id:11, img: 'imagens/Home/Slide moda/poloBoss.png'},
+    {id:12, img: 'imagens/Home/Slide moda/pretaSport.png'},
+    {id:13, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
+    {id:14, img: 'imagens/Home/Slide moda/shortPraia.png'}
 ]

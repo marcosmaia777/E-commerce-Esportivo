@@ -66,9 +66,7 @@
 }
 
 .fashionRow{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    background: rgb(209, 198, 198);
+    display: none;
 }
 
 .fashionRow h2{
@@ -78,24 +76,38 @@
 }
 
 .fashionRow-listArea{
-    overflow-x: hidden;
     margin-left: 30px;
 }
 
 .fashionRow-list{
-    width: 9999px;
+    width: 250px;
 }
 
 .fashionRow-item{
     display: inline-block;
+    width: 200px;
+    height: 200px;
 }
 
 .fashionRow-item img{
-    width: 200px;
+    width: 100%;
+    height: 100%;
     transform: scale(0.9);
 }
 
 .fashionRow-item img:hover{
     transform: scale(1);
     transition: all 0.4s;
+}
+
+.slider2{
+    display: flex;
+    
+    
+    
+    overflow-x: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 35px;
+    width: 999px;
 }
