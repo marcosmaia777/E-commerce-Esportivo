@@ -83,10 +83,10 @@
     width: 150px;
     height: 150px;
     margin-top: 20px;
-    margin-right: 50px;
-    margin-left: -55px;
-    background: wheat;
-    margin-top: 30px;
+    margin-right: 55px;
+    margin-left: -65px;
+    background: rgb(243, 223, 186);
+    margin-top: 40px;
 }
 
 .fashionRow-item{
@@ -119,10 +119,11 @@
 }
 
 .slider2 h2{
-    margin-left: 30px;
-    margin-top: 5px;
+    margin-left: 50px;
+    margin-top: 10px;   
     font-size: 23px;
     font-weight: bolder;
+    height: 20px;
 }
 
 .fashion-left,
@@ -130,8 +131,14 @@
     font-size: 50px;
     display: flex;
     position: absolute;
-    width: 40px;
     height: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    overflow: hidden;
+    background: rgba(0,0,0, 0.4);
+    cursor: pointer;
+    opacity: 0;
 }
 
 .fashion-left{
@@ -140,4 +147,10 @@
 
 .fashion-right{
     right: 0;
+}
+
+.slider2:hover .fashion-left,
+.slider2:hover .fashion-right {
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
 }
