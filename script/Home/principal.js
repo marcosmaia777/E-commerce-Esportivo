@@ -108,6 +108,7 @@ modaJson.map((item, index) => {
 })
 
 //Scroll lista Moda
+var overflow = 0
 
 
 // scroll backHome

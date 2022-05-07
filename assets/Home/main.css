@@ -125,15 +125,15 @@ aside.show {
     margin-left: 20px;
 }
 
-.item--img:hover {
-    transform: scale(1.05);
-    transition: all ease 0.4s;
-}
-
 .item--img img {
     width: 90%;
     height: auto;
     margin-top: 15px;
+}
+
+.item--img img:hover{
+    transform: scale(1.05);
+    transition: all ease 0.4s;
 }
 
 .item--price {
