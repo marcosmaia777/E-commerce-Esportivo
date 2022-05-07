@@ -109,10 +109,6 @@ modaJson.map((item, index) => {
 
 //Scroll lista Moda
 
-const right = () => {
-    
-}
-
 
 // scroll backHome
 function backHome () {

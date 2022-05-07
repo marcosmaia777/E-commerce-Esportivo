@@ -116,6 +116,7 @@
     height: 220px;
     box-shadow: 3px 3px 20px 3px #0a5d91;
     background: white;
+    overflow-x: scroll;
 }
 
 .slider2 h2{
