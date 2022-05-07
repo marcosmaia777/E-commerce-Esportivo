@@ -99,8 +99,7 @@ buttonFinish.addEventListener('click', () => {
     document.querySelector('aside').classList.remove('show')
 })
 
-
-
+//Imagens na lista MODA
 modaJson.map((item, index) => {
     let Moda = document.querySelector('.fashionRow .fashionRow-listArea').cloneNode(true)
     Moda.querySelector('.fashionRow-item img').src = item.img
@@ -108,7 +107,11 @@ modaJson.map((item, index) => {
     document.querySelector('.slider2').append( Moda )
 })
 
+//Scroll lista Moda
 
+const right = () => {
+    
+}
 
 
 // scroll backHome
