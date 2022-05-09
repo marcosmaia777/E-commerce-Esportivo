@@ -102,9 +102,16 @@ buttonFinish.addEventListener('click', () => {
 //Imagens na lista MODA
 modaJson.map((item, index) => {
     let Moda = document.querySelector('.fashionRow .fashionRow-listArea').cloneNode(true)
+    Moda.setAttribute('data-key' , index)
     Moda.querySelector('.fashionRow-item img').src = item.img
 
     document.querySelector('.slider2').append( Moda )
+
+    Moda.querySelector('.fashionRow-item').addEventListener('click', (e) => {
+        e.preventDefault()
+        document.querySelector('.modal').style.display = 'flex';
+    })
+
 })
 
 // scroll backHome
