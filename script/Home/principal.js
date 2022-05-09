@@ -107,10 +107,6 @@ modaJson.map((item, index) => {
     document.querySelector('.slider2').append( Moda )
 })
 
-//Scroll lista Moda
-var overflow = 0
-
-
 // scroll backHome
 function backHome () {
     window.scroll({
