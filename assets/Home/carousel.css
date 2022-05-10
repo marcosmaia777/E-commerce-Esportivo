@@ -98,13 +98,7 @@
 .fashionRow-item img{
     width: 100%;
     height: 100%;
-    transform: scale(0.9);
     cursor: pointer;
-}
-
-.fashionRow-item img:hover{
-    transform: scale(1);
-    transition: all 0.4s;
 }
 
 .slider2{
@@ -117,7 +111,6 @@
     box-shadow: 3px 3px 20px 3px #0a5d91;
     background: white;
     overflow-x: scroll;
-  
 }
 
 .slider2 h2{

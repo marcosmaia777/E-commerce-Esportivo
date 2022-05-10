@@ -131,11 +131,6 @@ aside.show {
     margin-top: 15px;
 }
 
-.item--img img:hover{
-    transform: scale(1.05);
-    transition: all ease 0.4s;
-}
-
 .item--price {
     font-size: 15px;
     color: #333;
@@ -165,7 +160,6 @@ aside.show {
     transition: all ease .5s;
     justify-content: center;
     align-items: center;
-    overflow-y: auto;
     display: none;
 }
 
