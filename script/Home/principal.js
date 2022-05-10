@@ -107,10 +107,21 @@ modaJson.map((item, index) => {
 
     document.querySelector('.slider2').append( Moda )
 
-    Moda.querySelector('.fashionRow-item').addEventListener('click', (e) => {
+    Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
         e.preventDefault()
+        let key = e.target.closest('.fashionRow-item').getAttribute('data-key');
+        
+        
+
+
+
+        document.querySelector('.modal').style.opacity = 0
         document.querySelector('.modal').style.display = 'flex';
-    })
+        setTimeout(() => {
+                document.querySelector('.modal').style.opacity = 1
+            }, 200)
+
+})
 
 })
 

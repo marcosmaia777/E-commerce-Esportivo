@@ -17,17 +17,17 @@ let imgJson = [
 ]
 
 let modaJson = [
-    {id:1, img: 'imagens/Home/Slide moda/adidasJoger.png'},
-    {id:2, img: 'imagens/Home/Slide moda/alpargataHavaianas.png'},
-    {id:3, img: 'imagens/Home/Slide moda/apple.png'},
-    {id:5, img: 'imagens/Home/Slide moda/chineloNike.png'},
-    {id:6, img: 'imagens/Home/Slide moda/conjuntoKalvin.png'},
-    {id:7, img: 'imagens/Home/Slide moda/everlast.png'},
-    {id:8, img: 'imagens/Home/Slide moda/jaqueta.png'},
-    {id:9, img: 'imagens/Home/Slide moda/kitMeia.png'},
-    {id:10, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
-    {id:11, img: 'imagens/Home/Slide moda/poloBoss.png'},
-    {id:12, img: 'imagens/Home/Slide moda/pretaSport.png'},
-    {id:13, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
-    {id:14, img: 'imagens/Home/Slide moda/shortPraia.png'}
+    {id:16, img: 'imagens/Home/Slide moda/adidasJoger.png'},
+    {id:17, img: 'imagens/Home/Slide moda/alpargataHavaianas.png'},
+    {id:18, img: 'imagens/Home/Slide moda/apple.png'},
+    {id:19, img: 'imagens/Home/Slide moda/chineloNike.png'},
+    {id:20, img: 'imagens/Home/Slide moda/conjuntoKalvin.png'},
+    {id:21, img: 'imagens/Home/Slide moda/everlast.png'},
+    {id:22, img: 'imagens/Home/Slide moda/jaqueta.png'},
+    {id:23, img: 'imagens/Home/Slide moda/kitMeia.png'},
+    {id:24, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
+    {id:25, img: 'imagens/Home/Slide moda/poloBoss.png'},
+    {id:26, img: 'imagens/Home/Slide moda/pretaSport.png'},
+    {id:27, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
+    {id:28, img: 'imagens/Home/Slide moda/shortPraia.png'}
 ]
