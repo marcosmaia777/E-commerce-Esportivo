@@ -44,8 +44,9 @@ input{
     border-radius: 3px;
     border: 1px solid;
 }
-
-.button--continue{
+.continue {
+    text-decoration: none;
+    font-size: 18px;
     width: 360px;
     height: 40px;
     background: green;
@@ -55,16 +56,12 @@ input{
     align-items: center;
     cursor: pointer;
     margin-left: 5%;
+    border: none;
+    color: white;
 }
 
-.button--continue:hover{
+.continue:hover{
     background: rgb(10, 192, 10)
-}
-
-.button--continue a {
-    color:white;
-    text-decoration: none;
-    font-size: 18px;
 }
 
 .conditions{

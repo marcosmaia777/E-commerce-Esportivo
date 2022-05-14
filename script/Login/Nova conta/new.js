@@ -1,4 +1,4 @@
-const button = document.getElementById('continue')
+/*const button = document.getElementById('continue')
 
 button.addEventListener('click', (event) => {
     event.preventDefault()
@@ -21,3 +21,21 @@ button.addEventListener('click', (event) => {
         alert("As senhas não coincidem")
     }
 })  
+*/
+
+const button = document.getElementById('continuar')
+
+
+button.addEventListener('click', (evento) => {
+    evento.preventDefault()
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
+    const password = document.getElementById('password').value
+    const confirmation = document.getElementById('confirmation').value
+
+    console.log(name)
+    console.log(email)
+    console.log(password)
+    console.log(confirmation)
+
+})

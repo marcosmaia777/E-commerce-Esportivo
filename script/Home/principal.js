@@ -105,12 +105,13 @@ modaJson.map((item, index) => {
     Moda.setAttribute('data-key' , index)
     Moda.querySelector('.fashionRow-item img').src = item.img
 
-    document.querySelector('.slider2').append( Moda )
+   
 
     Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
         e.preventDefault()
-        let key = e.target.closest('.fashionRow-item').getAttribute('data-key');
         
+        let key = e.target.closest('.fashionRow-item').getAttribute('data-key');
+        console.log(key)
         
 
 
@@ -122,6 +123,7 @@ modaJson.map((item, index) => {
             }, 200)
 
 })
+    document.querySelector('.slider2').append( Moda )
 
 })
 
