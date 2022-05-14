@@ -33,5 +33,8 @@ const dadosNew = {
 }
 
 const createNew  = (newUser) => {
-    localStorage.setItem('DB', JSON.stringify(newUser))
+    const DB = JSON.parse(localStorage.getItem('DB'))
+    console.log(DB)
+    DB.push(newUser)
+    localStorage.setItem('DB', JSON.stringify(DB))
 }
