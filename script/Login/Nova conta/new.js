@@ -1,6 +1,7 @@
-/*const button = document.getElementById('continue')
+// Validação
+const continuar = document.getElementById('continuar')
 
-button.addEventListener('click', (event) => {
+continuar.addEventListener('click', (event) => {
     event.preventDefault()
     let nome = document.getElementById('name')
     let email = document.getElementById('email')
@@ -21,21 +22,16 @@ button.addEventListener('click', (event) => {
         alert("As senhas não coincidem")
     }
 })  
-*/
 
-const button = document.getElementById('continuar')
+// Create 
 
+const dadosNew = {
+    nome: 'Marcos Maia Fidelis',
+    email: 'marcosmaiafidelis777@outlook.com',
+    senha: '123456',
+    confirmaçao: '123456'
+}
 
-button.addEventListener('click', (evento) => {
-    evento.preventDefault()
-    const name = document.getElementById('name').value
-    const email = document.getElementById('email').value
-    const password = document.getElementById('password').value
-    const confirmation = document.getElementById('confirmation').value
-
-    console.log(name)
-    console.log(email)
-    console.log(password)
-    console.log(confirmation)
-
-})
+const createNew  = (newUser) => {
+    localStorage.setItem('DB', JSON.stringify(newUser))
+}
