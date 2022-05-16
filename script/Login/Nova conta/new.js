@@ -26,4 +26,7 @@ continuar.addEventListener('click', (event) => {
 
 function save () {
     localStorage.setItem('name', document.getElementById('name').value)
+    localStorage.setItem('email', document.getElementById('email').value)
+    localStorage.setItem('password', document.getElementById('password').value)
+    localStorage.setItem('confirmation', document.getElementById('confirmation').value)
 }
