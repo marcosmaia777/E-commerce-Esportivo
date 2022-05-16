@@ -1,4 +1,4 @@
-// Validação
+/*
 const continuar = document.getElementById('continuar')
 
 continuar.addEventListener('click', (event) => {
@@ -22,19 +22,8 @@ continuar.addEventListener('click', (event) => {
         alert("As senhas não coincidem")
     }
 })  
+*/
 
-// Create 
-
-const dadosNew = {
-    nome: 'Marcos Maia Fidelis',
-    email: 'marcosmaiafidelis777@outlook.com',
-    senha: '123456',
-    confirmaçao: '123456'
-}
-
-const createNew  = (newUser) => {
-    const DB = JSON.parse(localStorage.getItem('DB'))
-    console.log(DB)
-    DB.push(newUser)
-    localStorage.setItem('DB', JSON.stringify(DB))
+function save () {
+    localStorage.setItem('name', document.getElementById('name').value)
 }
