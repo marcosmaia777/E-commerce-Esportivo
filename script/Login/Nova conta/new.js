@@ -1,4 +1,3 @@
-/*
 const continuar = document.getElementById('continuar')
 
 continuar.addEventListener('click', (event) => {
@@ -22,11 +21,17 @@ continuar.addEventListener('click', (event) => {
         alert("As senhas não coincidem")
     }
 })  
-*/
+
 
 function save () {
-    localStorage.setItem('name', document.getElementById('name').value)
-    localStorage.setItem('email', document.getElementById('email').value)
-    localStorage.setItem('password', document.getElementById('password').value)
-    localStorage.setItem('confirmation', document.getElementById('confirmation').value)
+    let dados = JSON.parse(localStorage.getItem('form') || '[]')
+dados.push(
+    {
+        email: email.value,
+        password: password.value,
+        confirmation: confirmation.value
+    }
+)
+
+localStorage.setItem('form' , JSON.stringify(dados))
 }
