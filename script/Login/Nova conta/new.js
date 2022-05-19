@@ -1,4 +1,4 @@
-const continuar = document.getElementById('continuar')
+/*const continuar = document.getElementById('continuar')
 
 continuar.addEventListener('click', (event) => {
     event.preventDefault()
@@ -21,12 +21,14 @@ continuar.addEventListener('click', (event) => {
         alert("As senhas não coincidem")
     }
 })  
+*/
 
 
 function save () {
     let dados = JSON.parse(localStorage.getItem('form') || '[]')
 dados.push(
     {
+        nome: nome.value,
         email: email.value,
         password: password.value,
         confirmation: confirmation.value
