@@ -9,7 +9,7 @@ body{
 .box--record{
     border: 1px solid black;
     width: 400px;
-    height: 550px;
+    height: 500px;
     background: white;
     box-shadow: 3px 3px 20px 3px #0a5d91;
     border: none;
@@ -21,19 +21,22 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: 'Charm', cursive;
+    font-family: 'Kalam', cursive;
+    height: 45px;
  }
 
 .form--area{
     height: 300px;
     width: 100%;
-    margin-top: 15px;
     display: block;
     justify-content: center;
     align-items: center;
 }
 
 label{
-    margin-left: 5%; 
+    margin-left: 5%;
+    font-family: 'Thasadith', sans-serif;
 }
 
 input{
@@ -58,6 +61,7 @@ input{
     margin-left: 5%;
     border: none;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .continue:hover{
@@ -74,6 +78,7 @@ input{
     margin-left: 5%;
     margin-top: 10px;
     line-height: 25px;
+    font-family: 'Thasadith', sans-serif;
 }
 
 .errorInput{
