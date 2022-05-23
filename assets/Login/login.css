@@ -8,7 +8,7 @@ body{
 
 .box{
     box-shadow: 3px 3px 20px 3px #0a5d91;
-    height: 450px;
+    height: 320px;
     width: 350px;
     margin-top: 10%;
     background: white;
@@ -18,21 +18,22 @@ body{
 .box--title{
     height: 50px;
     width: 100%;
-    font-size: 20px;
+    font-size: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: 'Charm', cursive;
+    font-family: 'Kalam', cursive;
 }
 
 .title{
     text-align: center;
-   font-size: 23px;
+    font-size: 23px;
 }
 
 .box--form{
-    
-    height: 150px;
+    height: 125px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,16 +43,17 @@ body{
 .box--login{
     font-size: 18px;
     margin-left: 5%;
-    margin-bottom: 10px;
+    font-family: 'Thasadith', sans-serif;
 }
 
 input{
     margin-left: 5%;
     width: 300px;
     height: 25px;
-    margin-top: 5px;
+    margin-top: 8px;
     border-radius: 3px;
     border: 1px solid;
+    margin-bottom: 5px;
 }
 
 .continue{
@@ -64,28 +66,18 @@ input{
     align-items: center;
     margin-left: 5%;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .continue a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .continue:hover{
    background: rgb(10, 192, 10)
-}
-
-.conditions{
-    width: 310px;
-    height: 70px;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 5%;
-    margin-top: 20px;
-    line-height: 25px;
 }
 
 .create{
@@ -97,18 +89,19 @@ input{
     justify-content: center;
     align-items: center;
     margin-left: 5%;
-    margin-top: 40px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
 .create:hover{
-    background:  #0f4d74;
+    background:  #126ee7;
 }
 
 .create a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .errorInput{
