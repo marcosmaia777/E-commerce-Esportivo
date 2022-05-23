@@ -21,9 +21,13 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Charm', cursive;
-    font-family: 'Kalam', cursive;
     height: 45px;
+ }
+
+ .box--title h2{
+    font-family: 'Kalam', cursive;
+    font-size: 35px;
+    font-weight:normal
  }
 
 .form--area{

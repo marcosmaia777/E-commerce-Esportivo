@@ -23,13 +23,12 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Charm', cursive;
-    font-family: 'Kalam', cursive;
 }
 
 .title{
     text-align: center;
-    font-size: 23px;
+    font-size: 35px;
+    font-family: 'Kalam', cursive;
 }
 
 .box--form{
