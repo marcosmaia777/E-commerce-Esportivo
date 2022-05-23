@@ -4,7 +4,7 @@ function cadastrar () {
     let password = document.getElementById('password')
     let confirmation = document.getElementById('confirmation')
 
-    if(nome.value == "" ||  
+    if  (nome.value == "" ||  
         email.value == "" || 
         email.value.indexOf("@") == -1 || 
         email.value.indexOf(".") == -1 || 
@@ -13,8 +13,14 @@ function cadastrar () {
         console.log('errado')
         
     } else {
+        nome.value = ''
+        email.value = ''
+        password.value = ''
+        confirmation.value = ''
         save()
+        window.location.href = 'file:///C:/Users/marco/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/MMfitness/Login.html'
     }
+
 }
  
 function save () {
