@@ -1,1 +1,1 @@
-<h1>Loja online</h1>
+<h1 style='center'>Loja online</h1>
