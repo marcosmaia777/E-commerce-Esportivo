@@ -9,8 +9,10 @@ function cadastrar () {
         email.value.indexOf("@") == -1 || 
         email.value.indexOf(".") == -1 || 
         password.value.length <= 5 ||
-        confirmation.value !== password.value  ) {
-        console.log('errado')
+        confirmation.value !== password.value ) {
+            nome.classList.add('errorInput')
+            email.classList.add('errorInput')
+            password.classList.add('errorInput')
         
     } else {
         nome.value = ''
