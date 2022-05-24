@@ -84,7 +84,6 @@ function updateCart() {
     cartItem.querySelector('img').src = item.img;
     cartItem.querySelector('.cart--item-name').innerHTML = item.name
     cartItem.querySelector('.cart--item--price').innerHTML = `R$ ${item.price.toFixed(2)}`
-    cartItem.querySelector('.cart--item--desc').innerHTML = item.description
 
     document.querySelector('.cart').append(cartItem);
 }
@@ -104,17 +103,12 @@ modaJson.map((item, index) => {
     Moda.setAttribute('data-key' , index)
     Moda.querySelector('.fashionRow-item img').src = item.img
 
-   
-
-    Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
+   Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
         e.preventDefault()
         
         let key = e.target.closest('.fashionRow-item').getAttribute('data-key');
         console.log(key)
         
-
-
-
         document.querySelector('.modal').style.opacity = 0
         document.querySelector('.modal').style.display = 'flex';
         setTimeout(() => {
