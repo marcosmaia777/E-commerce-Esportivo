@@ -15,11 +15,11 @@ function cadastrar () {
             password.classList.add('errorInput')
         
     } else {
+        save()
         nome.value = ''
         email.value = ''
         password.value = ''
         confirmation.value = ''
-        save()
         window.location.href = 'file:///C:/Users/marco/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/MMfitness/Login.html'
     }
 
