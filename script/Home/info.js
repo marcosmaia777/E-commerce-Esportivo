@@ -17,17 +17,17 @@ let imgJson = [
 ]
 
 let modaJson = [
-    {id:1, img: 'imagens/Home/Slide moda/adidasJoger.png'},
-    {id:2, img: 'imagens/Home/Slide moda/alpargataHavaianas.png'},
-    {id:3, img: 'imagens/Home/Slide moda/apple.png'},
-    {id:4, img: 'imagens/Home/Slide moda/chineloNike.png'},
-    {id:5, img: 'imagens/Home/Slide moda/conjuntoKalvin.png'},
-    {id:6, img: 'imagens/Home/Slide moda/everlast.png'},
-    {id:7, img: 'imagens/Home/Slide moda/jaqueta.png'},
-    {id:8, img: 'imagens/Home/Slide moda/kitMeia.png'},
-    {id:9, img: 'imagens/Home/Slide moda/oculosCiclista.png'},
-    {id:10, img: 'imagens/Home/Slide moda/poloBoss.png'},
-    {id:11, img: 'imagens/Home/Slide moda/pretaSport.png'},
-    {id:12, img: 'imagens/Home/Slide moda/sandaliaHavaiana.png'},
-    {id:13, img: 'imagens/Home/Slide moda/shortPraia.png'}
+    {id:1, name: 'Tênis Adidas', img: 'imagens/Home/Slide moda/adidasJoger.png', price: 600, id2: 'Calçado'},
+    {id:2, name: 'Alpargata', img: 'imagens/Home/Slide moda/alpargataHavaianas.png', price: 89.99, id2: 'calçado'},
+    {id:3, name: 'Apple Watch', img: 'imagens/Home/Slide moda/apple.png', price: 3200, id2: 'Variados'},
+    {id:4, name: 'Chinelo Nike', img: 'imagens/Home/Slide moda/chineloNike.png', price: 130, id2: 'Calçado'},
+    {id:5, name: 'Conjunto Kalvin Klein', img: 'imagens/Home/Slide moda/conjuntoKalvin.png',price: 129.99, id2: 'Moda'},
+    {id:6, name: 'Tênis Everlast', img: 'imagens/Home/Slide moda/everlast.png',price: 290, id2: 'Calçado'},
+    {id:7, name: 'Jaqueta', img: 'imagens/Home/Slide moda/jaqueta.png',price: 499, id2: 'Moda'},
+    {id:8, name: 'Kit meia', img: 'imagens/Home/Slide moda/kitMeia.png',price: 59.99, id2: 'Calçado'},
+    {id:9, name: 'Óculos ciclista', img: 'imagens/Home/Slide moda/oculosCiclista.png',price: 320, id2: 'Variados'},
+    {id:10,name: 'Camisa polo Hugo Boss', img: 'imagens/Home/Slide moda/poloBoss.png',price: 280, id2: 'Moda'},
+    {id:11,name: 'Camisa térmica do Sport', img: 'imagens/Home/Slide moda/pretaSport.png',price: 100, id2: 'Moda'},
+    {id:12,name: 'Sandália Havaianas', img: 'imagens/Home/Slide moda/sandaliaHavaiana.png',price: 39.99, id2: 'Calçado'},
+    {id:13,name: 'Short de praia', img: 'imagens/Home/Slide moda/shortPraia.png',price: 30, id2: 'Moda'}
 ]

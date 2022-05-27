@@ -107,9 +107,21 @@ modaJson.map((item, index) => {
    Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
         e.preventDefault()
         let index = e.target.closest('.fashionRow-listArea').getAttribute('data-key');
-        console.log(index)
         
-        
+        document.querySelector('.modal--big img').src = modaJson[index].img
+        document.querySelector('.modal--info h1').innerHTML = modaJson[index].name
+        document.querySelector('.modal--actualPrice').innerHTML = `R$ ${modaJson[index].price.toFixed(2)}`
+
+        //Botões de tamanho
+        if (item.id2 === 'Variados') {
+            document.querySelector('.modal--PMG').style.display = 'none'
+            document.querySelector('.modal--sizes').style.display = 'none'
+        }if (item.id2 === 'Moda') {
+            document.querySelector('.modal--sizes').style.display = 'none'
+        }if (item.id2 === 'Calçado') {
+            document.querySelector('.modal--PMG').style.display = 'none'
+        }
+
         document.querySelector('.modal').style.opacity = 0
         document.querySelector('.modal').style.display = 'flex';
         setTimeout(() => {
