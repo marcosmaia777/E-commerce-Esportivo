@@ -100,14 +100,15 @@ buttonFinish.addEventListener('click', () => {
 //Imagens na lista MODA
 modaJson.map((item, index) => {
     let Moda = document.querySelector('.fashionRow .fashionRow-listArea').cloneNode(true)
+   
     Moda.setAttribute('data-key' , index)
     Moda.querySelector('.fashionRow-item img').src = item.img
 
    Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
         e.preventDefault()
+        let index = e.target.closest('.fashionRow-listArea').getAttribute('data-key');
+        console.log(index)
         
-        let key = e.target.closest('.fashionRow-item').getAttribute('data-key');
-        console.log(key)
         
         document.querySelector('.modal').style.opacity = 0
         document.querySelector('.modal').style.display = 'flex';
