@@ -18,7 +18,7 @@ musculação.</p>
 <ul>JavaScript</ul>
 
 # Acesso ao projeto
-<a href='https://github.com/marcosmaia777/E-commerce-Esportivo'>
+<a href='https://github.com/marcosmaia777/E-commerce-Esportivo'>GitHub</a>
 
 # Autor 
-<a href='https://www.linkedin.com/in/mmarcosmaia7/'>
+<a href='https://www.linkedin.com/in/mmarcosmaia7/'>Linkedin</a>
