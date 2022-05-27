@@ -21,4 +21,5 @@ musculação.</p>
 <a href='https://github.com/marcosmaia777/E-commerce-Esportivo'>GitHub</a>
 
 # Autor 
+Marcos Maia Fidelis
 <a href='https://www.linkedin.com/in/mmarcosmaia7/'>Linkedin</a>
