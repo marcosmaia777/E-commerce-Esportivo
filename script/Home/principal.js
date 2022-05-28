@@ -167,12 +167,6 @@ document.querySelector('.modal--addButton').addEventListener('click' , () =>{
       }
   }
 
-
-
-
-
-
-
 // scroll backHome
 function backHome () {
     window.scroll({
