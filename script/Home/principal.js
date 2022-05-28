@@ -73,6 +73,7 @@ document.querySelector('.modal--addButton').addEventListener('click' , () =>{
   closeModal()
 })
 
+
 function updateCart() {
     if (cart.length > 0) {
         document.querySelector('aside').classList.add('show')
@@ -107,12 +108,15 @@ modaJson.map((item, index) => {
    Moda.querySelector('.fashionRow-list').addEventListener('click', (e) => {
         e.preventDefault()
         let index = e.target.closest('.fashionRow-listArea').getAttribute('data-key');
+        modalQt = 1;
+        modalindex = index;
+       
         
         document.querySelector('.modal--big img').src = modaJson[index].img
         document.querySelector('.modal--info h1').innerHTML = modaJson[index].name
         document.querySelector('.modal--actualPrice').innerHTML = `R$ ${modaJson[index].price.toFixed(2)}`
 
-        //Botões de tamanho
+//Botões de tamanho
         if (item.id2 === 'Variados') {
             document.querySelector('.modal--PMG').style.display = 'none'
             document.querySelector('.modal--sizes').style.display = 'none'
@@ -132,6 +136,42 @@ modaJson.map((item, index) => {
     document.querySelector('.slider2').append( Moda )
 
 })
+
+//Adicionar ao carrinho 
+document.querySelector('.modal--addButton').addEventListener('click' , () =>{
+    cart.push({
+        id: modaJson[modalindex].id,
+        qt: modalQt
+    });
+    updateCart()
+    closeModal()
+  })
+  
+  
+  function updateCart() {
+      if (cart.length > 0) {
+          document.querySelector('aside').classList.add('show')
+      closeModal()
+          for(let i in cart) {
+              let item = modaJson.find((item)=>item.id == cart[i].id);
+        let cartItem = document.querySelector('.models .cart--item').cloneNode(true);
+  
+      cartItem.querySelector('img').src = item.img;
+      cartItem.querySelector('.cart--item-name').innerHTML = item.name
+      cartItem.querySelector('.cart--item--price').innerHTML = `R$ ${item.price.toFixed(2)}`
+  
+      document.querySelector('.cart').append(cartItem);
+  }
+      } else {
+          document.querySelector('aside').classList.remove('show')
+      }
+  }
+
+
+
+
+
+
 
 // scroll backHome
 function backHome () {
