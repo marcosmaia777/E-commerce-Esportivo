@@ -7,17 +7,6 @@ body {
     display: none;
 }
 
-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 60px;
-    display: none;
-    justify-content: flex-end;
-    align-items: center;
-}
-
 aside {
     width:0vw;
     transition:all ease .2s;

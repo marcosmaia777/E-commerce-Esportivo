@@ -1,16 +1,20 @@
-.menu{
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 60px;
     height: 60px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background:#032940;
+    background:#032940
 }
 
 input{
     height: 20px;
-    font-size: 15px;
     border-radius: 5px;
     border: none;
     width: 300px;
@@ -18,7 +22,6 @@ input{
 }
 
 .menu--login,
-.menu--car,
 .menu--address{
     font-size: 18px;
     text-decoration: none;
@@ -26,10 +29,8 @@ input{
     margin-left: 20px;
 }
 
-.menu--car:hover,
 .menu--login:hover,
 .menu--address:hover{
    transform: scale(1.1);
    transition:  0.3s;
-   color: orange;
 }
