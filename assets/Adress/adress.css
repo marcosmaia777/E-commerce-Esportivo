@@ -15,12 +15,7 @@ body{
     margin-top: 5%;
 }
 
-.container--title{
-    font-family: 'Kalam', cursive;
-    text-align: center;
-}
-
-.container--description p{
+.container--description {
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Thasadith', sans-serif;
@@ -29,33 +24,18 @@ body{
     color: red;
 }
 
-.login a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    background: #0a5d91;
-    width: 90%;
-    margin-left: 5%;
-    height: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
 .CEP{
     text-align: center;
     font-family: 'Thasadith', sans-serif;
 }
 
-.input{
+.input ,.input input {
    text-align: center;
+   height: 25px;
 }
 
 .endereco{
     width: 90%;
-    height: 250px;
     margin-left: 5%;
     display: inline-block;
     flex-direction: row;
@@ -69,4 +49,20 @@ form input{
     margin-left: 3%;
     width: 90%;
     height: 30px;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background: #0a5d91;
+    width: 83%;
+    margin-left: 8%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
 }
