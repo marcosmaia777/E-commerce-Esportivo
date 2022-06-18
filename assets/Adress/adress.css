@@ -13,6 +13,7 @@ body{
     box-shadow: 3px 3px 20px 3px #0a5d91;
     background: white;
     margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container--description {
@@ -51,7 +52,7 @@ form input{
     height: 30px;
 }
 
-.login a {
+.login button {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -65,4 +66,5 @@ form input{
     align-items: center;
     cursor: pointer;
     margin-top: 10px;
+    border: none;
 }
