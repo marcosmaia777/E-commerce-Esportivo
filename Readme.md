@@ -2,7 +2,7 @@
 <p>Em construção.</p>
 
 # Sobre
-<p>AZ Variedades é uma loja online de esportes dos mais variados tipos, futebol, basquete, vôlei,
+<p>SPORTSDEV.COM.BR é uma loja online de esportes dos mais variados tipos, futebol, basquete, vôlei,
 musculação.</p>
 
 # Funcionalidades
