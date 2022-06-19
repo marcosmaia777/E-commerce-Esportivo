@@ -4,10 +4,9 @@ function address () {
     let cep = document.getElementById('cep')
     if (cep.value == '') {
         console.log('cep em branco')
-    };
+    } 
 }
 
-/*const cep = document.getElementById('cep')
 const showData = (result) => {
     for(const campo in result){
         if(document.querySelector('#'+campo)){
@@ -30,4 +29,3 @@ cep.addEventListener('blur' ,(e)=>{
     })
     .catch(e => console.log('Deu erro' + e,message))
 })
-*/
