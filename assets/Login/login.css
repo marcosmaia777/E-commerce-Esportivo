@@ -102,7 +102,3 @@ input{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
-
-.errorInput{
-    border: red 1px solid !important;
-}
