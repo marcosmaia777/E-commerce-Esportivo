@@ -15,5 +15,11 @@ button.addEventListener('click' , (event) =>{
     } else {
     email.value = ''
     password.value = ''
-    window.location.href = 'file:///C:/Users/marco/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/MMfitness/Home.html'
+    window.location.href = 'file:///C:/Users/marco/OneDrive/Documentos/Projetos/MMfitness/Home.html'
 }})
+
+const newCont = document.getElementById('create')
+newCont.addEventListener('click', (event)=> {
+    event.preventDefault()
+    window.location.href = 'file:///C:/Users/marco/OneDrive/Documentos/Projetos/MMfitness/novaConta.html'
+})
