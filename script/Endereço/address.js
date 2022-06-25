@@ -4,7 +4,9 @@ function address () {
     let cep = document.getElementById('cep')
     if (cep.value == '') {
         console.log('cep em branco')
-    } 
+    } else {
+        window.location.href = 'file:///C:/Users/marco/OneDrive/Documentos/Projetos/MMfitness/Login.html'
+    }
 }
 
 const showData = (result) => {
