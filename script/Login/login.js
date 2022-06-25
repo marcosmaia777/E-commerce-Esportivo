@@ -10,8 +10,7 @@ button.addEventListener('click' , (event) =>{
         email.value.indexOf("@") == -1 || 
         email.value.indexOf(".") == -1 || 
         password.value.length <= 5) {
-            email.classList.add('errorInput')
-            password.classList.add('errorInput')
+            alert('Preencha os campos')
     
     } else {
     email.value = ''

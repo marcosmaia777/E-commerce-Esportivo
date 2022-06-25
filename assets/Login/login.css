@@ -8,7 +8,7 @@ body{
 
 .box{
     box-shadow: 3px 3px 20px 3px #0a5d91;
-    height: 320px;
+    height: 300px;
     width: 350px;
     margin-top: 10%;
     background: white;
@@ -19,17 +19,19 @@ body{
     text-align: center;
     font-size: 35px;
     font-family: 'Kalam', cursive;
+    margin-top: 10px;
 }
 
-.box--form{
+.form{
     height: 125px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: red;
 }
 
-.box--login{
+form  label{
     font-size: 18px;
     margin-left: 5%;
     font-family: 'Thasadith', sans-serif;
@@ -58,13 +60,6 @@ input{
     margin-top: 20px;
 }
 
-.continue a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .continue:hover{
    background: rgb(10, 192, 10)
 }
@@ -86,7 +81,7 @@ input{
     background:  #126ee7;
 }
 
-.create a {
+a {
     text-decoration: none;
     color: white;
     font-size: 18px;
