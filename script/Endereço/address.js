@@ -29,3 +29,4 @@ cep.addEventListener('blur' ,(e)=>{
     })
     .catch(e => console.log('Deu erro' + e,message))
 })
+
