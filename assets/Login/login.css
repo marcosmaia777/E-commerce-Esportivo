@@ -15,17 +15,7 @@ body{
     border-radius: 3px;
 }
 
-.box--title{
-    height: 50px;
-    width: 100%;
-    font-size: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.title{
+.box h2{
     text-align: center;
     font-size: 35px;
     font-family: 'Kalam', cursive;
