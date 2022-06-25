@@ -3,7 +3,7 @@
 function address () {
     let cep = document.getElementById('cep')
     if (cep.value == '') {
-        console.log('cep em branco')
+        alert('Insira um CEP válido')
     } else {
         window.location.href = 'file:///C:/Users/marco/OneDrive/Documentos/Projetos/MMfitness/Login.html'
     }
