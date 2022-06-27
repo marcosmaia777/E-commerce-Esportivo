@@ -11,20 +11,31 @@
 }
 
 .slider--item {
-    width: 90vw;
+    width: 100vw;
     height: inherit;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
+    color: #FFF;
+    text-shadow: 0px 1px 1px #333;
+    font-size: 50px;
     margin-top: 50px;
+    margin-left: 4%;
 }
 
 .slider--controls {
     position: absolute;
     z-index: 99;
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+    width: 100%;
+}
+
+.slider--control{
+    margin: 10px;
+    font-size: 40px;
 }
