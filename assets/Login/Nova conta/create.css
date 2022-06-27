@@ -84,7 +84,3 @@ input{
     line-height: 25px;
     font-family: 'Thasadith', sans-serif;
 }
-
-.errorInput{
-    border: 1px solid red;
-}

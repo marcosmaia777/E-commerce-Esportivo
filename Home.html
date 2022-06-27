@@ -20,44 +20,28 @@
         <a href="address.html">Selecione o endereço</a>
         <input type="text" placeholder="O que está procurando?">
         <a href="Login.html">Login</a>
+        <a href="novaConta.html">Criar conta</a>
         <a href="car.html">Carrinho</a>
     </header>
     <div>
     <!--Carrosel-->
     <div class="slider">
-        <div class="slides">
-            <input type="radio" name="slide" id="slide1">
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-            <input type="radio" name="slide" id="slide4">
-            <input type="radio" name="slide" id="slide5">
-
-            <div class="slide first">
-
-                <img src="imagens/Home/Slide principal/Suplemento/combo probiotica.png"
-                    alt="Combo de whey protein da probiotica">
-                <img src="imagens/Home/Slide principal/Suplemento/vo2-whey-bar-sabor-chocolate-integralmedica.png"
-                    alt="Barrinha proteica">
-                <img src="imagens/Home/Slide principal/Suplemento/max.png" alt="whey max">
-            </div>
-            <div class="slide">
-                <img src="imagens/Home/Slide principal/Esporte/camisa santa cruz.png" alt="Camisa do santa cruz">
-                <img src="imagens/Home/Slide principal/Esporte/chuteira.png" alt="chuteira">
-                <img src="imagens/Home/Slide principal/Esporte/powermill-climber-discoverse3-hd-arcticsilver-standardview-data.png"
-                    alt="máquina escada">
-            </div>
-            <div class="slide">
-                <img src="imagens/Home/Slide principal/Moda/jaqueta.png" alt="Jaqueta">
-                <img src="imagens/Home/Slide principal/Moda/tenis lakers.png" alt="Tênis lakers">
-                <img src="imagens/Home/Slide principal/Moda/brasil azul.png" alt="Camisa da seleção brasileira">
-            </div>
-
+        <div class="slider--controls">
+            <div class="slider--control" onclick="goPrev()">voltar</div>
+            <div class="slider--control" onclick="goNext()">próxima</div>
         </div>
-        <div class="manual--navegation">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
+        <div class="slider--width">
+            <div class="slider--item" style="background-image: url('images/1.jpg');">
+
+            </div>
+            <div class="slider--item" style="background-image: url('images/2.jpg');">
+                
+            </div>
+            <div class="slider--item" style="background-image: url('images/3.jpg');">
+                
+            </div>
         </div>
+
     </div>
     <!--Modelo-->
     <main>

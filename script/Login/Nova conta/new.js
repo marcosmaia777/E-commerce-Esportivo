@@ -10,9 +10,7 @@ function cadastrar () {
         email.value.indexOf(".") == -1 || 
         password.value.length <= 5 ||
         confirmation.value !== password.value ) {
-            nome.classList.add('errorInput')
-            email.classList.add('errorInput')
-            password.classList.add('errorInput')
+           alert('Preencha os campos')
         
     } else {
         save()
@@ -20,7 +18,7 @@ function cadastrar () {
         email.value = ''
         password.value = ''
         confirmation.value = ''
-        window.location.href = 'file:///C:/Users/marco/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/MMfitness/Login.html'
+        window.location.href = 'file:///C:/Users/marco/OneDrive/Documentos/Projetos/MMfitness/Login.html'
     }
 
 }

@@ -28,3 +28,8 @@ header a{
     font-size: 18px;
     font-family: 'Thasadith', sans-serif;
 }
+
+header a:hover{
+    color: orange;
+    transition: all 0.5s;
+}
