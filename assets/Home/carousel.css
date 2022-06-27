@@ -1,5 +1,5 @@
 .slider{
-    width: 100%;
+    width: 100vw;
     height: 500px;
     overflow: hidden;
 }
@@ -11,8 +11,8 @@
 }
 
 .slider--item {
-    width: 100vw;
-    height: inherit;
+    width: 90%;
+    height: 90%;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -38,4 +38,5 @@
 .slider--control{
     margin: 10px;
     font-size: 40px;
+    cursor: pointer;
 }
