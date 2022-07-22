@@ -1,5 +1,5 @@
 .slider {
-    height: 500px;
+    height: 380px;
     overflow: hidden;
 }
 .slider--width {
@@ -8,16 +8,9 @@
     transition: all ease 0.8s;
 }
 .slider--item {
-    width: 450px;
-    height: 450px;
-    background-position: center;
+    width: 250px;
+    height: 250px;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    text-shadow: 0px 1px 1px #333;
-    font-size: 50px;
     margin-top: 50px;
     margin-left: 50px;
 }
