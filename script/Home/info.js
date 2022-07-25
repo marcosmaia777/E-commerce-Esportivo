@@ -26,9 +26,7 @@ let imgJson = [
     {id:26, name: 'Combo Probiótica', img: 'imagens/Home/slidePrincipal/Suplemento/comboProbiotica.png', price: 329.99, id2: 'Calçado'},
     {id:27, name: 'Whey Max Titanium', img: 'imagens/Home/slidePrincipal/Suplemento/max.png', price: 329.99, id2: 'Calçado'},
     {id:28, name: 'Chinelo da Nike', img: 'imagens/Home/slideModa/chineloNike.png', price: 329.99, id2: 'Calçado'},
-    {id:28, name: 'Tênis Adidas', img: 'imagens/Home/slideModa/adidasJoger.png', price: 329.99, id2: 'Calçado'},
-    {id:28, name: 'Chinelo da Nike', img: 'imagens/Home/slideModa/poloBoss.png', price: 329.99, id2: 'Calçado'},
-    {id:28, name: 'Chinelo da Nike', img: 'imagens/Home/slideModa/apple.png', price: 329.99, id2: 'Calçado'},
-
-
+    {id:29, name: 'Tênis Adidas', img: 'imagens/Home/slideModa/adidasJoger.png', price: 329.99, id2: 'Calçado'},
+    {id:30, name: 'Chinelo da Nike', img: 'imagens/Home/slideModa/poloBoss.png', price: 329.99, id2: 'Calçado'},
+    {id:31, name: 'Apple Watch', img: 'imagens/Home/slideModa/apple.png', price: 329.99, id2: 'Calçado'},
 ]
