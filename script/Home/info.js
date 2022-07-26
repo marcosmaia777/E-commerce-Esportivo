@@ -30,3 +30,4 @@ let imgJson = [
     {id:30, name: 'Chinelo da Nike', img: 'imagens/Home/slideModa/poloBoss.png', price: 329.99, id2: 'Calçado'},
     {id:31, name: 'Apple Watch', img: 'imagens/Home/slideModa/apple.png', price: 329.99, id2: 'Calçado'},
 ]
+
