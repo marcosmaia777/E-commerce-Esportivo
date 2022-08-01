@@ -1,0 +1,20 @@
+.area-dep{
+    width: 100%;
+    height: 300px;
+    background: green;
+    padding: 20px;
+}
+
+.img-dep{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    margin-left: 10px;
+    display: flex;
+    
+}
+
+.img-dep img {
+    width: 90%;
+    height: 90%;
+}
