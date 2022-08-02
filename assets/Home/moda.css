@@ -1,12 +1,12 @@
 .area-dep{
     height: 150px;
     padding: 20px;
+    display: flex;
 }
 
 .modelo-dep{
     height: 150px;
     background: rgb(209, 198, 198);
-    display: flex;
     box-shadow: 3px 3px 20px 3px #0a5d91;
     margin-top: -180px;
 }
@@ -17,6 +17,12 @@
     margin-left: 10px;
     height: 20px;
     margin-top: 5px;
+}
+
+.dep-img{
+    background: green;
+    display: flex;
+    width: 150px;
 }
 
 .dep-img img {
