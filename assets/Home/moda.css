@@ -3,16 +3,23 @@
     padding: 20px;
 }
 
-.img-dep{
+.modelo-dep{
     height: 150px;
-    background: white;
-    margin-left: 10px;
+    background: rgb(209, 198, 198);
     display: flex;
+    box-shadow: 3px 3px 20px 3px #0a5d91;
+    margin-top: -180px;
+}
+
+.img-dep p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 20px;
 }
 
 .img-dep img {
     width: 100px;
     height: 100px;
     margin-top: 20px;
-    margin-left: 10px;
 }
