@@ -11,14 +11,15 @@
     margin-top: -180px;
 }
 
-.img-dep p {
+.modelo-dep p {
     font-size: 20px;
     font-weight: bold;
     margin-left: 10px;
     height: 20px;
+    margin-top: 5px;
 }
 
-.img-dep img {
+.dep-img img {
     width: 100px;
     height: 100px;
     margin-top: 20px;

@@ -4,6 +4,7 @@ let modalKey = 0;
 
 imgJson.map((item, index)=> {
     //Preenchimento 
+    
     let Item = document.querySelector('.models .item').cloneNode(true);
     Item.setAttribute('data-key' , index)
     Item.querySelector('.item--name').innerHTML = item.name
