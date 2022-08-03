@@ -28,15 +28,3 @@ let imgJson = [
     {id:28, name: 'Chinelo da Nike', img: 'imagens/Home/slideModa/chineloNike.png', price: 329.99, id2: 'Calçado'},
     {id:29, name: 'Tênis Adidas', img: 'imagens/Home/slideModa/adidasJoger.png', price: 329.99, id2: 'Calçado'}
 ]
-
-let modaJson = [
-    {id:1,img: 'imagens/Home/slideModa/alpargataHavaianas.png', price: 99.99 , id2: 'Calçado'},
-    {id:2,img: 'imagens/Home/slideModa/apple.png', price: 1000 , id2: 'Variados'},
-    {id:3,img: 'imagens/Home/slideModa/conjuntoKalvin.png', price: 99.99 , id2: 'Calçado'},
-    {id:4,img: 'imagens/Home/slideModa/everlast.png', price: 299.99 , id2: 'Calçado'},
-    {id:5,img: 'imagens/Home/slideModa/kitMeia.png', price: 99.99 , id2: 'Calçado'},
-    {id:6,img: 'imagens/Home/slideModa/poloBoss.png', price: 329 , id2: 'Moda'},
-    {id:7,img: 'imagens/Home/slideModa/pretaSport.png', price: 129 , id2: 'Moda'},
-    {id:8,img: 'imagens/Home/slideModa/sandaliaHavaiana.png', price: 50 , id2: 'Calçado'},
-    {id:9,img: 'imagens/Home/slideModa/shortPraia.png', price: 59.99 , id2: 'Moda'},
-]

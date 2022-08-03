@@ -1,5 +1,5 @@
 # SPORTSDEV.COM.BR
-<p>Em construção.</p>
+<p>Finalizado.</p>
 
 # Sobre
 <p>SPORTSDEV.COM.BR é uma loja online de esportes dos mais variados tipos, futebol, basquete, vôlei,
@@ -10,8 +10,7 @@ musculação.</p>
 <ul>[x] - Sistema para criar uma conta e salvar no banco</ul>
 <ul>[x] - Endereço para calcular frete</ul>
 <ul>[x] - Carrinho de compras</ul>
-<ul>[ ] - Buscar produtos</ul>
-<ul>[ ] - Sistema de recuperação de senha</ul>
+
 
 # Tecnologias
 <ul>HTML</ul>
