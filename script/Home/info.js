@@ -17,7 +17,7 @@ let imgJson = [
     {id:17, name: 'Chuteira Nike', img: 'imagens/Home/slidePrincipal/Esporte/chuteira.png', price: 329.99, id2: 'Calçado'},
     {id:18, name: 'Escada', img: 'imagens/Home/slidePrincipal/Esporte/Escada.png', price: 329.99, id2: 'Variados'},
     {id:19, name: 'Camisa da seleção brasileira', img: 'imagens/Home/slidePrincipal/Moda/brasil.png', price: 329.99, id2: 'Moda'},
-    {id:20, name: 'Jaqueta', img: 'imagens/Home/slideModa/oculosCiclista.png', price: 329.99, id2: 'Modda'},
+    {id:20, name: 'Óculos ciclista', img: 'imagens/Home/slideModa/oculosCiclista.png', price: 329.99, id2: 'Modda'},
     {id:21, name: 'Tênis Lakers', img: 'imagens/Home/slidePrincipal/Moda/tenis.png', price: 329.99, id2: 'Calçado'},
     {id:22, name: 'Barrinha de proteína', img: 'imagens/Home/slidePrincipal/Suplemento/barrinha.png', price: 329.99, id2: 'Variados'},
     {id:23, name: 'Combo IntegralMédica', img: 'imagens/Home/slidePrincipal/Suplemento/comboInt.png', price: 329.99, id2: 'Variados'},

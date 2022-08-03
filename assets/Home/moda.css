@@ -6,8 +6,7 @@
 
 .modelo-dep{
     height: 150px;
-    background: rgb(209, 198, 198);
-    box-shadow: 3px 3px 20px 3px #0a5d91;
+    background: rgb(223, 216, 216);
     margin-top: -180px;
 }
 
@@ -20,13 +19,15 @@
 }
 
 .dep-img{
-    background: green;
-    display: flex;
     width: 150px;
+    height: 120px;
+    margin-left: 10px;
+    align-items: center;
 }
 
 .dep-img img {
     width: 100px;
     height: 100px;
     margin-top: 20px;
+    cursor: pointer;
 }
